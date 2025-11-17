@@ -1,6 +1,6 @@
 ---
 nome: Alby Go
-description: Guida per l'applicazione mobile Alby Go
+descrizione: Guida per l'applicazione mobile Alby Go
 ---
 
 ![cover-green](assets/cover.webp)
@@ -9,7 +9,7 @@ description: Guida per l'applicazione mobile Alby Go
 ## 🚀 Benvenuti su Alby Go - il Wallet mobile più facile da usare
 
 
-**Alby Go** è un'applicazione mobile open-source, facile da usare, che funge da nodi di luce e portafogli Wallet Interface a Bitcoin. Ecco come iniziare e sfruttare al meglio la vostra esperienza.
+**Alby Go** è un'app mobile open-source, facile da usare, che funge da interfaccia wallet per nodi e wallet Bitcoin Lightning. Ecco come iniziare e sfruttare al meglio la tua esperienza.
 
 
 **Portafogli/Nodi supportati e conosciuti:**
