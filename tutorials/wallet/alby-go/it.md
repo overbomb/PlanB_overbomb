@@ -12,7 +12,7 @@ descrizione: Guida per l'applicazione mobile Alby Go
 **Alby Go** è un'app mobile open-source, facile da usare, che funge da interfaccia wallet per nodi e wallet Bitcoin Lightning. Ecco come iniziare e sfruttare al meglio la tua esperienza.
 
 
-**Portafogli/Nodi supportati e conosciuti:**
+**Portafogli/Nodi supportati e compatibili:**
 
 
 
@@ -43,18 +43,19 @@ Disponibile sulle principali piattaforme:
 ## 🔌 Collegare un Wallet
 
 
-Alby Go si collega al vostro nodo o Wallet abilitato ai fulmini utilizzando un segreto NWC (Nostr Wallet Connect). È possibile collegare uno o più portafogli per passare facilmente da uno all'altro.
+Alby Go si connette al tuo nodo o wallet Lightning utilizzando un segreto NWC (Nostr Wallet Connect). Puoi collegare uno o più wallet per passare facilmente da uno all'altro.
 
-Passi:
+I passaggi:
 
-1. Aprire Impostazioni → Portafogli → Collegare un Wallet
+
+1. Aprire Impostazioni → Wallets → Collegare un Wallet
 
 2. Scansionare un codice QR o incollare un segreto di connessione NWC (ad es. nostr+walletconnect://...)
 
 3. Assegnare un nome personalizzato alla connessione
 
 
-Una volta collegato, il Wallet o il nodo è pronto per inviare e ricevere pagamenti lampo Bitcoin tramite Alby Go.
+Una volta collegato, il Wallet o il nodo è pronto per inviare e ricevere pagamenti Lightning tramite Alby Go.
 
 
 suggerimento: è possibile collegare più portafogli e passare da uno all'altro in qualsiasi momento.
@@ -65,35 +66,36 @@ suggerimento: è possibile collegare più portafogli e passare da uno all'altro 
 ## ⚡ Inviare Bitcoin
 
 
-Per inviare il Sats sul Lightning Network:
-
-1. Toccare il grande pulsante giallo **Invia**.
-
-2. Scegliere una delle seguenti opzioni:
+Per inviare sats sulla rete Lightning:
 
 
- - Scansione del codice QR di un fulmine Invoice
- - Incollare un fulmine Invoice dagli appunti
- - Inserire manualmente un fulmine Address
+1. toccare il grande pulsante giallo **Invia**;
+
+2. scegliere una delle seguenti opzioni:
 
 
-È anche possibile selezionare un destinatario dal Libro Address, dove è possibile salvare indirizzi fulminei per riutilizzarli facilmente.
+ - scansione del codice QR di un Lightning Invoice;
+ - incollare un Lightning Invoice dagli appunti;
+ - inserire manualmente un Lightning Address.
+
+
+È possibile selezionare un destinatario dal Libro Address, dove è possibile salvare indirizzi Lightningi per riutilizzarli facilmente.
 
 
 
 
 ## 💸 Ricezione Bitcoin
 
-Per ricevere il Sats con Alby Go:
+Per ricevere Sats con Alby Go:
 
-1. Toccare il grande pulsante giallo **RECEIVE**.
+1. toccare il grande pulsante giallo **RECEIVE**;
 
-2. Scegliere una delle seguenti opzioni:
+2. scegliere una delle seguenti opzioni:
 
 
- - Condividete il vostro fulmine Address come visualizzato
- - Selezionare "Importo" per generate un fulmine Invoice con importi personalizzati
- - Fare clic su "Redeem" per scansionare i codici QR del ritiro di LNURL
+ - condividete il vostro Lightning Address come mostrato;
+ - selezionare "Importo" per generate un Lightning Invoice con importi personalizzati;
+ - fare clic su "Redeem" per scansionare i codici QR di prelievo LNURL
 
 
 Sono disponibili sia i codici QR che le stringhe Invoice per la comodità del mittente.
