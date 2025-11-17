@@ -1,5 +1,5 @@
 ---
-name: Alby Go
+nome: Alby Go
 description: Guida per l'applicazione mobile Alby Go
 ---
 
