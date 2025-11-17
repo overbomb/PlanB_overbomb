@@ -7,28 +7,28 @@ description: Il fork di Samourai Wallet per proteggere, gestire e miscelare i bi
 
 
 
-Ashigaru è un'applicazione Bitcoin mobile wallet che segue il progetto Samourai Wallet, ma in una nuova forma. Questo software è nato in un contesto particolare: nell'aprile 2024, i fondatori di Samourai Wallet sono stati arrestati dalle autorità americane e i loro server sono stati sequestrati. Sebbene l'applicazione Samurai sia rimasta utilizzabile, attualmente non viene più mantenuta. Ashigaru è una versione gratuita per fork di Samurai Wallet, mantenuta da un team anonimo per garantire la continuità delle funzionalità di Samurai e salvaguardare la sua filosofia originaria: difendere la privacy e la sovranità degli utenti di Bitcoin.
+Ashigaru è un'applicazione Bitcoin mobile wallet che segue il progetto Samourai Wallet, ma in una nuova forma. Questo software è nato in un contesto particolare: nell'aprile 2024, i fondatori di Samourai Wallet sono stati arrestati dalle autorità americane e i loro server sono stati sequestrati. Sebbene l'applicazione Samurai sia rimasta utilizzabile, attualmente non viene più mantenuta. Ashigaru è una versione gratuita fork di Samurai Wallet, mantenuta da un team anonimo per garantire la continuità delle funzionalità di Samurai e salvaguardare la sua filosofia originaria: difendere la privacy e la sovranità degli utenti di Bitcoin.
 
 
 
-Ashigaru riprende molto del DNA di Samourai: un'interfaccia simile, un approccio ovviamente autocustodiale, l'open source e l'attenzione alla privacy. Il codice è distribuito sotto la licenza GNU GPLv3, che garantisce che chiunque possa controllare, modificare o ridistribuire il software.
+Ashigaru riprende molto del DNA di Samourai: un'interfaccia simile, self-custody, open source e con attenzione alla privacy. Il codice è distribuito sotto la licenza GNU GPLv3, che garantisce che chiunque possa controllare, modificare o ridistribuire il software.
 
 
 
-L'applicazione Ashigaru integra una serie di strumenti avanzati per la riservatezza e la gestione dei vostri UTXO:
+L'applicazione Ashigaru integra una serie di strumenti avanzati per la riservatezza e la gestione dei tuoi UTXO:
 
 
 
 
-- Whirlpool**, un protocollo di coinjoin basato su Zerolink, che consente di interrompere i legami deterministici tra le entrate e le uscite delle transazioni, senza perdere la sovranità sui propri fondi.
-- PayNym**, che implementa codici di pagamento riutilizzabili (BIP47), ora rappresentati tramite un sistema di avatar "*Pepehash*".
-- Ricochet**, una funzione che aggiunge salti intermedi alle transazioni per renderle più difficili da tracciare.
-- E naturalmente ***Coin Control*** per selezionare, congelare ed etichettare con precisione gli UTXO.
-- Batch Spending***, per ridurre i costi raggruppando diversi pagamenti in un'unica transazione.
-- La modalità **Stealth**, che nasconde l'applicazione sul cellulare dietro un launcher fittizio per passare inosservata durante un'ispezione fisica del telefono.
-- Strumenti di spesa avanzati per ottimizzare la vostra riservatezza (payjoin, stonewall...).
-- Un sistema di recupero ottimizzato che utilizza la passphrase BIP39.
-- Un sistema per ottimizzare automaticamente la scelta delle commissioni di transazione.
+- **Whirlpool**, è un protocollo di coinjoin basato su Zerolink, che consente di interrompere i legami deterministici tra le entrate e le uscite delle transazioni, senza perdere la sovranità sui propri fondi;
+- **PayNym**, che implementa codici di pagamento riutilizzabili (BIP47), ora rappresentati tramite un sistema di avatar "*Pepehash*";
+- **Ricochet**, una funzione che aggiunge salti intermedi alle transazioni per renderle più difficili da tracciare;
+- **Coin Control** per selezionare, congelare ed etichettare con precisione gli UTXO;
+- **Batch Spending**, per ridurre i costi raggruppando diversi pagamenti in un'unica transazione;
+- **Stealth**, modalità che nasconde l'applicazione sul cellulare dietro un launcher fittizio per passare inosservata durante un'ispezione fisica del telefono;
+- strumenti di spesa avanzati per ottimizzare la vostra riservatezza (payjoin, stonewall...);
+- un sistema di recupero ottimizzato che utilizza la passphrase BIP39;
+- un sistema per ottimizzare automaticamente la scelta delle commissioni di transazione.
 
 
 
@@ -36,7 +36,7 @@ L'applicazione Ashigaru integra una serie di strumenti avanzati per la riservate
 
 
 
-Ashigaru si rivolge quindi agli utenti consapevoli delle problematiche legate alla tracciabilità delle transazioni su Bitcoin. Che siate utenti attenti alla privacy, bitcoiner esperti impegnati nell'autocustodia o individui esposti ai rischi di una maggiore sorveglianza, questa applicazione per il wallet vi fornisce gli strumenti necessari per riprendere il controllo della vostra attività sul Bitcoin.
+Ashigaru si rivolge ad utenti consapevoli delle problematiche legate alla tracciabilità delle transazioni su Bitcoin. Che siate utenti attenti alla privacy, bitcoiner esperti impegnati nell'autocustodia o individui esposti ai rischi di una maggiore sorveglianza, questa applicazione per il wallet vi fornisce gli strumenti necessari per riprendere il controllo della vostra attività sul Bitcoin.
 
 
 
