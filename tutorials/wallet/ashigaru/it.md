@@ -1,6 +1,6 @@
 ---
-name: Ashigaru
-description: Il fork di Samourai Wallet per proteggere, gestire e miscelare i bitcoin
+nome: Ashigaru
+descrizione: Il fork di Samourai Wallet per proteggere, gestire e miscelare i bitcoin
 ---
 
 ![cover](assets/cover.webp)
