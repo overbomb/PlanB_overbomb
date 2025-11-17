@@ -12,7 +12,7 @@ descrizione: Guida per l'applicazione mobile Alby Go
 **Alby Go** è un'app mobile open-source, facile da usare, che funge da interfaccia wallet per nodi e wallet Bitcoin Lightning. Ecco come iniziare e sfruttare al meglio la tua esperienza.
 
 
-**Portafogli/Nodi supportati e compatibili:**
+**Wallet/Nodi supportati e compatibili:**
 
 
 
@@ -48,11 +48,11 @@ Alby Go si connette al tuo nodo o wallet Lightning utilizzando un segreto NWC (N
 I passaggi:
 
 
-1. Aprire Impostazioni → Wallets → Collegare un Wallet
+1. aprire Impostazioni → Wallets → Collegare un Wallet;
 
-2. Scansionare un codice QR o incollare un segreto di connessione NWC (ad es. nostr+walletconnect://...)
+2. scansionare un codice QR o incollare un segreto di connessione NWC (ad es. nostr+walletconnect://...);
 
-3. Assegnare un nome personalizzato alla connessione
+3. assegnare un nome personalizzato alla connessione.
 
 
 Una volta collegato, il Wallet o il nodo è pronto per inviare e ricevere pagamenti Lightning tramite Alby Go.
@@ -95,7 +95,7 @@ Per ricevere Sats con Alby Go:
 
  - condividete il vostro Lightning Address come mostrato;
  - selezionare "Importo" per generate un Lightning Invoice con importi personalizzati;
- - fare clic su "Redeem" per scansionare i codici QR di prelievo LNURL
+ - fare clic su "Redeem" per scansionare i codici QR di prelievo LNURL.
 
 
 Sono disponibili sia i codici QR che le stringhe Invoice per la comodità del mittente.
@@ -109,7 +109,7 @@ Portate il vostro Bitcoin ovunque andiate.
 
 **Alby Go** è leggero, veloce e facile da usare, perfetto per gli operatori di nodi e per i Bitcoiners in movimento.
 
-Nessun gonfiore. Nessun problema. Veloce come un fulmine.
+Niente fronzoli. Niente complicazioni. Veloce come un fulmine.
 
 
 
@@ -117,12 +117,12 @@ Nessun gonfiore. Nessun problema. Veloce come un fulmine.
 ## 🛠️ Caratteristiche aggiuntive
 
 
-- 🗺️ BTC Map (un ampio elenco di commercianti che accettano pagamenti Bitcoin)
-- 🌗 Modalità scura e chiara
-- 💱 Inserimento e calcolo della valuta personalizzata
-- 🧾 Storico delle transazioni
-- 👥 Libro Address
-- 🧷 Aggiungere, rimuovere ed esportare portafogli
+- 🗺️ BTC Map (un ampio elenco di commercianti che accettano pagamenti Bitcoin);
+- 🌗 modalità scura e chiara;
+- 💱 inserimento e calcolo della valuta personalizzata;
+- 🧾 storico delle transazioni;
+- 👥 rubrica;
+- 🧷 aggiungere, rimuovere ed esportare wallet
 
 
 **💡 Hai bisogno di aiuto?**
