@@ -1,7 +1,7 @@
 ---
 name: Bitkit Wallet
 
-description: Impostare il On-Chain e il Wallet fulminante
+description: Imposta il tuo wallet On-Chain e Lightning
 ---
 
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ description: Impostare il On-Chain e il Wallet fulminante
 Bitkit (https://www.bitkit.to) è un Wallet semplice ma potente. Paga chiunque, ovunque e in qualsiasi momento.
 
 
-Bitkit è un Wallet mobile auto-custode che vi permette di prendere il vero Ownership del vostro Bitcoin in modo da poter spendere alle vostre condizioni. Dotato di funzioni di spicco e di un design elegante, Bitkit sblocca i pagamenti istantanei a chiunque, sempre e ovunque. Il tutto in modo completamente open-source, per consentire a chiunque di verificarlo.
+Bitkit è un Wallet mobile self-custodial che ti permette di prendere il vero possesso dei tuoi Bitcoin in modo da poter spendere alle tue condizioni. Dotato di funzioni di spicco e di un design elegante, Bitkit sblocca i pagamenti istantanei a chiunque, sempre e ovunque. Il tutto in modo completamente open-source, per consentire a chiunque di verificarlo.
 
 
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
@@ -34,7 +34,7 @@ Pagamenti istantanei: Non dovrete più destreggiarvi tra i portafogli per le tra
 Gestione del saldo: Trasferite senza problemi i fondi tra il vostro conto di risparmio e quello di spesa per assicurarvi di avere sempre una capacità sufficiente per i pagamenti immediati.
 
 
-Frase di recupero: Ripristinare il saldo dei risparmi su qualsiasi Wallet che supporti il BIP 39.
+Frase di recupero: Ripristinare il saldo dei risparmi su qualsiasi Wallet che supporti BIP 39.
 
 
 Backup automatici: I dati non sensibili del Wallet vengono sottoposti a backup automatico, in modo da poter sempre ripristinare il saldo delle spese.
@@ -49,19 +49,19 @@ Cronologia dettagliata delle transazioni: Assegnare contatti e taggare le transa
 Bitkit vanta anche funzionalità uniche che lo distinguono:
 
 
-Contatti per i pagamenti: Dite addio alla richiesta di indirizzi o fatture. Basta aggiungere gli amici all'elenco dei contatti e pagarli.
+contatti per i pagamenti: puoi dire addio alla richiesta di indirizzi o invoice. Basta aggiungere gli amici all'elenco dei contatti e pagarli.
 
 
-Widget dal vivo: Aggiungete un tocco di divertimento e utilità alla schermata iniziale del Wallet con widget accattivanti.
+Widget dal vivo: aggiunge un tocco di divertimento alla schermata iniziale del Wallet con widget accattivanti.
 
 
-Profilo sociale: Controllate il vostro profilo pubblico e i vostri link, in modo che i vostri contatti possano contattarvi e pagarvi in qualsiasi momento.
+Profilo sociale: controlla il tuo profilo pubblico ed i tuoi link, in modo che i tuoi contatti possano contattarti e pagarti in qualsiasi momento.
 
 
-Account senza password: Accedere ai siti web che supportano gli Slashtag o l'autenticazione Lightning.
+Account senza password: accedi ai siti web che supportano gli Slashtag o l'autenticazione Lightning.
 
 
-QuickPay: Impostate un limite personalizzato per i pagamenti Lightning inferiori a 50 dollari e ogni Invoice al di sotto di questo limite verrà pagato istantaneamente, senza strisciate e senza ritardi. Perfetto per le corse al caffè o per dividere le bollette.
+QuickPay: imposta un limite personalizzato per i pagamenti Lightning inferiori a 50 dollari ed ogni invoice al di sotto di questo limite verrà pagato istantaneamente, senza ritardi. Perfetto per le corse al caffè o per dividere le bollette.
 
 
 Acquisti: Pagare Netflix, Airbnb, generi alimentari, dati mobili e altro ancora con Bitcoin, proprio all'interno di Bitkit.
@@ -85,41 +85,41 @@ Aprire l'App Store (iOS) o Google Play (Android).
 Cercare "BitKit" e verificare che sia presente l'icona arancione del marchio ufficiale.
 
 
-Toccare Ottieni o Installa, quindi Apri al termine del download.
+Toccare ottieni o installa, quindi apri al termine del download.
 
 
-Suggerimento: se individuate qualche applicazione falsa, controllate due volte l'editore. BitKit è pubblicato da Synonym Software Ltd.
+Suggerimento: se individui qualche applicazione falsa, controlla due volte l'editore. BitKit è pubblicato da Synonym Software Ltd.
 
 
 
 ### 2. Primo lancio e condizioni
 
 
-Avviare BitKit, accettare le Condizioni d'uso e toccare Continua.
+Avviare BitKit, accettare le Condizioni d'uso e cliccare continua.
 
 
-Toccare Inizia per avviare il flusso di onboarding.
+Clicca inizia per avviare il processo di inizializzazione.
 
 
-Ignorare il ripristino di Wallet per ora; creeremo un nuovo Wallet.
+Ignora il ripristino di Wallet per ora; crea un nuovo wallet.
 
 
 ### 3. Backup del Wallet seed
 
 
-BitKit è autocustodito, quindi la frase seed di dodici parole è l'unico metodo di recupero.
+BitKit è self-custodial, quindi la seedphrase di dodici parole è l'unico metodo di recupero.
 
 
-Toccare Esegui backup ora quando viene richiesto.
+Clicca esegui backup quando viene richiesto.
 
 
-Scrivete le dodici parole su carta e conservatele offline in un luogo sicuro.
+Scrivi le dodici parole su carta e conservatele offline in un luogo sicuro.
 
 
-Confermare le parole quando viene richiesto, quindi toccare Salva.
+Conferma le parole quando viene richiesto e clicca salva.
 
 
-Attenzione: Se si perde il seed, si perdono le monete. Non c'è un pulsante di ripristino.
+Attenzione: Se si perde il seed, si perdono i bitcoin. Non c'è un pulsante di ripristino.
 
 
 ### 4. Conti di risparmio e conti di spesa
@@ -140,59 +140,59 @@ Spesa: Lightning Network
 Piccoli pagamenti quotidiani e istantanei
 
 
-Passare da una all'altra con la scheda in alto nella schermata iniziale.
+Puoi passare da una all'altra con la barra in alto nella schermata iniziale.
 
 
 ### 5. Ricezione Bitcoin on chain (risparmio)
 
 
-Selezionare i risparmi.
+Seleziona risparmi.
 
 
-Toccare Ricevi per generate un nuovo Bitcoin Address.
+clicca ricevi per generate un nuovo Bitcoin Address.
 
 
-Condividere il codice QR o copiare il Address al mittente.
+Condividi il codice QR o copia l'address per il mittente.
 
 
 I fondi appariranno dopo una conferma. I coriandoli celebreranno l'arrivo.
 
 
-### 6. Ricezione su fulmine (spesa)
+### 6. Ricezione su Lightning (spesa)
 
 
-Selezionare Spesa e toccare Ricevi.
+Selezionare Spesa e clicca Ricevi.
 
 
-Inserire un importo (ad esempio, 10 000 Sats) e toccare Continua.
+Inserire un importo (ad esempio, 10 000 Sats) e clicca Continua.
 
 
 BitKit valuterà la commissione per l'apertura di un canale (requisito di liquidità).
 
 
-Toccare Continua a generate a Lampo Invoice.
+Clicca continua a genera un Lightning invoice.
 
 
-Lasciate che il mittente scansioni o incolli il Invoice. I fondi si depositano in pochi secondi.
+Lascia che il mittente scansioni o incolli l'Invoice. I fondi si depositano in pochi secondi.
 
 
 
-### 7. Inviare un pagamento lampo
+### 7. Inviare un pagamento Lightning
 
 
-Toccare l'icona Scansione, scansionare un Lightning Invoice o incollarlo.
+Tocca l'icona scansione e scansionare un Lightning Invoice o incollarlo.
 
 
-Immettere l'importo, se necessario, quindi toccare Continua.
+Immettere l'importo, se necessario, quindi clicca continua.
 
 
 Rivedere la tariffa e aggiungere un'etichetta opzionale per la contabilità.
 
 
-Passare il dito per pagare, inserire il PIN e il gioco è fatto.
+Passare il dito per pagare, inserire il PIN ed il gioco è fatto.
 
 
-I dettagli della transazione, compresi i costi e il Timestamp, vengono visualizzati nel feed delle attività.
+I dettagli della transazione, compresi i costi ed il Timestamp, vengono visualizzati nel feed delle attività.
 
 
 ### 8. Creare il profilo e i contatti
@@ -210,7 +210,7 @@ BitKit mostra il vostro codice QR personale. Gli amici possono scansionarlo per 
 Accettare o rifiutare la richiesta per consentire ai contatti di pagarvi.
 
 
-Una volta aggiunto un contatto, è sufficiente toccare il suo nome nei Contatti per inviare o richiedere il Sats.
+Una volta aggiunto un contatto, è sufficiente toccare il suo nome nei contatti per inviare o richiedere sats.
 
 
 ### 9. Esplora i widget
@@ -218,7 +218,7 @@ Una volta aggiunto un contatto, è sufficiente toccare il suo nome nei Contatti 
 Dalla schermata iniziale, scorrere fino alla sezione Widget. Toccare l'icona dell'ingranaggio per aggiungere o modificare:
 
 
-Bitcoin Price Ticker - scegliete fino a quattro valute fiat e impostate l'arco temporale (giorno, settimana, mese, anno).
+bitcoin Price Ticker - scegli fino a quattro valute fiat ed imposta l'arco temporale (giorno, settimana, mese, anno).
 
 
 Feed di notizie - titoli delle principali fonti Bitcoin.
@@ -230,7 +230,7 @@ Bitcoin Facts - curiosità in pillole per principianti.
 Calcolatrice - conversione istantanea tra Sats e fiat.
 
 
-Widget meteo - mostra il "meteo" delle tariffe di rete, indicando i momenti migliori per le transazioni On-Chain (il sole significa bassa congestione).
+Widget Meteo – mostra le "condizioni meteo" delle commissioni di rete, indicando i momenti migliori per le transazioni on-chain (sunniness indica bassa congestione).
 
 
 
