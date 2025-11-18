@@ -86,38 +86,38 @@ D'altra parte, se utilizzi una passphrase, assicurati di non scriverla sullo ste
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Una volta salvata la frase mnemonica su un supporto fisico, si consiglia vivamente di eseguire un test di ripristino quando il portafoglio appena creato è ancora vuoto. Questo test consiste nell'annotare un campione di informazioni, cancellare deliberatamente il portafoglio vuoto e poi provare a ripristinarlo utilizzando solo il backup fisico della frase mnemonica. In questo modo è possibile verificare che il backup sia completo e privo di errori di inserimento. Inoltre, consente di familiarizzare con il processo di ripristino. In questo modo, se in futuro avrete bisogno di un ripristino, sarete meglio preparati ed eviterete lo stress di un primo tentativo in una situazione reale. Per saperne di più su come eseguire questo test, vedere quest'altra esercitazione:
+Una volta salvata la frase mnemonica su un supporto fisico, si consiglia vivamente di eseguire un test di ripristino quando il portafoglio appena creato è ancora vuoto. Questo test consiste nell'annotare tutte le informazioni, cancellare deliberatamente il portafoglio vuoto e poi provare a ripristinarlo utilizzando solo il backup fisico della frase mnemonica. In questo modo è possibile verificare che il backup sia completo e privo di errori di inserimento. Inoltre, consente di familiarizzare con il processo di ripristino. In questo modo, se in futuro avrete bisogno di un ripristino, sarete meglio preparati ed eviterete lo stress di un primo tentativo in una situazione reale. Per saperne di più su come eseguire questo test, vedere quest'altra esercitazione:
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-Infine, c'è la questione del numero di backup. Questa scelta dipende interamente dalla vostra situazione personale. Limitare il numero di copie, ad esempio scrivendo la frase mnemonica solo una volta su un supporto, riduce il rischio di furto, ma aumenta il rischio di perdita. Al contrario, fare più copie riduce il rischio di perdita, ma aumenta il rischio di furto. Sta quindi a voi trovare il giusto equilibrio per le vostre esigenze e stabilire il numero di copie che ritenete più opportuno.
+Infine, c'è la questione del numero di backup. Questa scelta dipende interamente dalla tua situazione personale. Limitare il numero di copie, ad esempio scrivendo la frase mnemonica solo una volta su un supporto, riduce il rischio di furto, ma aumenta il rischio di perdita. Al contrario, fare più copie riduce il rischio di perdita, ma aumenta il rischio di furto. Sta quindi a te trovare il giusto equilibrio per le tue esigenze e stabilire il numero di copie che ritieni più opportuno.
 
 ## Immagazzinamento
 
-Dopo aver eseguito un accurato backup della frase mnemonica, è il momento di scegliere un luogo di archiviazione adatto. Questo dipende dalla vostra strategia di sicurezza. In ogni caso, scegliete un luogo lontano dalla vista, dove è improbabile che qualcuno vi si imbatta, ma accessibile per i controlli periodici. Assicuratevi anche che sia protetto dalle intemperie, per evitare di danneggiare il substrato.
+Dopo aver eseguito un accurato backup della frase mnemonica, è il momento di scegliere un luogo di archiviazione adatto. Questo dipende dalla tua strategia di sicurezza. In ogni caso, scegli un luogo lontano dalla vista, dove è improbabile che qualcuno vi si imbatta, ma accessibile per i controlli periodici. Assicurati anche che sia protetto dalle intemperie, per evitare danni al tuo backup.
 
 Sconsiglio inoltre di conservare la propria mnemonica in luoghi in cui non si è sovrani, come una cassetta di sicurezza presso uno studio notarile o una banca. Queste opzioni possono sembrare sicure, ma implicano che si dipenda da una terza parte per accedere al proprio backup, il che va contro i principi fondamentali di Bitcoin.
 
-Per una maggiore sicurezza, vi consiglio di utilizzare un sacchetto di plastica a prova di manomissione o un sistema di chiusura simile. In questo modo potrete verificare che nessuno abbia avuto accesso alla vostra frase. Ad esempio, se conservate la frase a casa e ricevete ospiti, potrebbe essere impossibile sapere se qualcuno l'ha vista, memorizzata o fotografata. Una custodia a prova di manomissione rende semplice questo tipo di verifica: se è intatta, potete essere certi che la vostra frase è rimasta segreta. Queste custodie completamente opache sono disponibili online o nei negozi specializzati in Bitcoin.
+Per una maggiore sicurezza, ti consiglio di utilizzare un sacchetto di plastica a prova di manomissione o un sistema di chiusura simile. In questo modo potrai verificare che nessuno abbia avuto accesso alla vostra frase. Ad esempio, se conservi la frase a casa e ricevi ospiti, potrebbe essere impossibile sapere se qualcuno l'ha vista, memorizzata o fotografata. Una custodia a prova di manomissione rende semplice questo tipo di verifica: se è intatta, sei certo che la tua frase è rimasta segreta. Queste custodie completamente opache sono disponibili online o nei negozi specializzati in Bitcoin.
 
 ![SEED](assets/fr/06.webp)
 
-Infine, quando la frase è conservata in una busta a prova di manomissione, non dimenticate di annotare l'identificativo unico della busta. Questo vi permetterà di verificarne l'autenticità durante i controlli.
+Infine, quando la frase è conservata in una busta a prova di manomissione, non dimenticare di annotare l'identificativo unico della busta. Questo ti permetterà di verificarne l'autenticità durante i controlli.
 
 ## Gestione del tempo
 
-Ora che la frase è stata conservata con cura, è importante istituire un monitoraggio regolare. Controllate periodicamente che la frase sia ancora presente nel luogo di conservazione e che la busta opaca non sia stata aperta.
+Ora che la frase è stata conservata con cura, è importante istituire un monitoraggio regolare. Controlla periodicamente che la frase sia ancora presente nel luogo di conservazione e che la busta opaca non sia stata aperta.
 
-Durante questi controlli, potete anche aprire la busta per esaminare le condizioni del supporto. Assicuratevi che non sia danneggiato e che la frase sia ancora perfettamente leggibile. Se si notano segni di danneggiamento, è meglio creare una nuova copia dal portafoglio hardware. Verificate che questa nuova copia sia funzionante, quindi distruggete il backup danneggiato in modo pulito per evitare qualsiasi rischio di perdita.
+Durante questi controlli, puoi anche aprire la busta per esaminare le condizioni del supporto. Assicurati che non sia danneggiato e che la frase sia ancora perfettamente leggibile. Se si notano segni di danneggiamento, è meglio creare una nuova copia dal hardware wallet. Verifica che questa nuova copia sia funzionante e distruggi il backup danneggiato.
 
 Infine, la gestione delle frasi mnemoniche solleva anche la questione dell'ereditarietà. Questo argomento sarà trattato in dettaglio in una prossima esercitazione.
 
 ## Andare oltre
 
-Per fare un ulteriore passo avanti e rafforzare la vostra strategia di sicurezza, vi consiglio di imparare il funzionamento tecnico del vostro portafoglio Bitcoin. Comprendendo come interagiscono i vari elementi, nonché la loro importanza e le loro implicazioni, sarete in grado di mettere a punto la vostra strategia di sicurezza con piena consapevolezza dei rischi connessi. In particolare, se si comprende a livello tecnico cosa consente la frase mnemonica, si potrà adattare il modo in cui la si registra, la si archivia e la si gestisce nel tempo.
+Per fare un ulteriore passo avanti e rafforzare la tua strategia di sicurezza, ti consiglio di imparare il funzionamento tecnico del tuo wallet Bitcoin. Comprendendo come interagiscono i vari elementi, nonché la loro importanza e le loro implicazioni, sarai in grado di mettere a punto la tua strategia di sicurezza con piena consapevolezza dei rischi connessi. In particolare, se si comprende a livello tecnico cosa consente la frase mnemonica, si potrà adattare il modo in cui la si registra, la si archivia e la si gestisce nel tempo.
 
-Ecco perché vi invito a seguire il corso di formazione gratuito CYP201 offerto da Plan ₿ Academy. Questo corso di formazione spiega in dettaglio tutti i meccanismi dei portafogli Bitcoin, consentendovi di padroneggiare gli aspetti tecnici essenziali per proteggere efficacemente i vostri fondi:
+Ecco perché ti invito a seguire il corso di formazione gratuito CYP201 offerto da Plan ₿ Academy. Questo corso di formazione spiega in dettaglio tutti i meccanismi dei wallet Bitcoin, consentendoti di padroneggiare gli aspetti tecnici essenziali per proteggere efficacemente i tuoi fondi:
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verde qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!
+Se hai trovato utile questa guida, ti sarei grato se lasciassi un pollice verde qui sotto. Sei libero di condividere questo articolo sui tuoi social network. Grazie mille!
