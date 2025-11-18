@@ -36,7 +36,7 @@ L'applicazione Ashigaru integra una serie di strumenti avanzati per la riservate
 
 
 
-Ashigaru si rivolge ad utenti consapevoli delle problematiche legate alla tracciabilità delle transazioni su Bitcoin. Che siate utenti attenti alla privacy, bitcoiner esperti impegnati nell'autocustodia o individui esposti ai rischi di una maggiore sorveglianza, questa applicazione per il wallet vi fornisce gli strumenti necessari per riprendere il controllo della vostra attività sul Bitcoin.
+Ashigaru si rivolge ad utenti consapevoli delle problematiche legate alla tracciabilità delle transazioni su Bitcoin. Che siate utenti attenti alla privacy, bitcoiner esperti impegnati nell'autocustodia o individui esposti ai rischi di una maggiore sorveglianza, questa applicazione per il wallet ti fornisce gli strumenti necessari per riprendere il controllo della vostra attività sul Bitcoin.
 
 
 
@@ -48,7 +48,7 @@ Ashigaru è disponibile in versione mobile tramite la sua applicazione, che espl
 
 
 
-In questo tutorial, vorrei introdurvi all'uso di base di Ashigaru: installazione, connessione al Dojo, backup, ricezione e invio di bitcoin. Gli strumenti avanzati saranno presentati in altri tutorial dedicati.
+In questo tutorial, ti mostrerò le basi dell’utilizzo di Ashigaru. Ti guiderò attraverso l’installazione, la connessione al Dojo, il backup dei dati e le operazioni di ricezione e invio di bitcoin. Per gli strumenti avanzati, sarà disponibile una serie di tutorial specifici in seguito.
 
 
 
@@ -56,7 +56,7 @@ In questo tutorial, vorrei introdurvi all'uso di base di Ashigaru: installazione
 
 
 
-L'applicazione richiede alcuni prerequisiti per funzionare correttamente. Innanzitutto, non è un'applicazione disponibile sui classici store come Google Play Store o App Store. Si installa manualmente sul telefono solo dal suo file `.apk`, scaricabile tramite la rete Tor. Pertanto, se si utilizza un iPhone, questo metodo non funziona: è necessario un dispositivo Android.
+L'applicazione richiede alcuni prerequisiti per funzionare correttamente. Innanzitutto, non è un'applicazione disponibile sui classici store come Google Play Store o App Store. Si installa manualmente sul telefono dal suo file `.apk`, scaricabile tramite la rete Tor. Pertanto, se si utilizza un iPhone, questo metodo non funziona: è necessario un dispositivo Android.
 
 
 
@@ -68,15 +68,15 @@ Per scaricare il file `.apk` tramite Tor, è necessario un browser in grado di a
 
 
 
-La maggior parte degli smartphone recenti blocca per impostazione predefinita l'installazione di applicazioni provenienti da fonti sconosciute. È necessario attivare temporaneamente questa opzione per Tor Browser nelle impostazioni del dispositivo per consentirne l'installazione. Una volta installata l'applicazione, ricordatevi di disattivare questa funzione per rafforzare la sicurezza del vostro telefono.
+La maggior parte degli smartphone recenti blocca per impostazione predefinita l'installazione di applicazioni provenienti da fonti sconosciute. È necessario attivare temporaneamente questa opzione nelle impostazioni del dispositivo per consentire l'installazione di Tor Browser. Una volta installata l'applicazione, ricordatevi di disattivare questa funzione per rafforzare la sicurezza del vostro telefono.
 
 
 
-Un altro prerequisito essenziale per l'utilizzo di Ashigaru è un nodo Bitcoin Dojo. Per motivi di sicurezza e sovranità, il team di Ashigaru non gestisce un server centralizzato a cui collegare la vostra applicazione. Dovrete quindi gestire la vostra istanza di Dojo o collegarvi a una istanza fidata.
+Un altro prerequisito essenziale per l'utilizzo di Ashigaru è avere un nodo Bitcoin Dojo. Per motivi di sicurezza, il team di Ashigaru non gestisce un server centralizzato a cui collegare la vostra applicazione. Dovrete quindi gestire la vostra istanza Dojo o collegarvi a una istanza fidata.
 
 
 
-Il Dojo consente all'applicazione Ashigaru di consultare le informazioni della blockchain, visualizzare i saldi degli indirizzi e trasmettere le transazioni sulla rete Bitcoin.
+Il Dojo consente all'applicazione Ashigaru di consultare le informazioni della blockchain, visualizzare i tuoi UTXO e trasmettere le transazioni sulla rete Bitcoin.
 
 
 
@@ -153,7 +153,7 @@ Keybase vi ha fornito l'hash dell'applicazione. Verifichiamo ora che l'hash del 
 Fate clic sul pulsante `BROWSE...` e selezionate il file `.apk` scaricato al punto 2.1.
 
 
-Scegliere quindi la funzione hash `SHA-256` e fare clic su `CALCOLA HASH` per calcolare l'hash del file.
+Scegliere quindi la funzione hash `SHA-256` e fare clic su `CALCULATE HASH` per calcolare l'hash del file.
 
 
 
@@ -181,11 +181,11 @@ Per installare l'applicazione, aprire il file manager del telefono e andare alla
 
 
 
-Ashigaru è ora installato sul vostro telefono.
+Ashigaru è  installato sul vostro telefono.
 
 
 
-## 3. Inizializzare l'applicazione e creare un portafoglio Bitcoin
+## 3. Inizializzare l'applicazione e creare un wallet Bitcoin
 
 
 
@@ -197,7 +197,7 @@ Quando si avvia l'applicazione per la prima volta, selezionare `MAINNET`.
 
 
 
-Quindi fare clic su "Inizia".
+Quindi fare clic su "Get Started".
 
 
 
@@ -205,7 +205,7 @@ Quindi fare clic su "Inizia".
 
 
 
-Ora creeremo un nuovo portafoglio Bitcoin. Premere il pulsante "Crea un nuovo wallet".
+Ora creeremo un nuovo wallet Bitcoin. Premere il pulsante "Create a new wallet".
 
 
 
@@ -213,25 +213,25 @@ Ora creeremo un nuovo portafoglio Bitcoin. Premere il pulsante "Crea un nuovo wa
 
 
 
-### 3.1. creare un portafoglio Bitcoin
+### 3.1. creare un wallet Bitcoin
 
 
 
-Ashigaru richiede un passphrase BIP39. Scegliete il vostro passphrase e inseritelo nei campi appropriati. Deve essere il più lungo e casuale possibile per resistere a un attacco di forza bruta.
+Ashigaru richiede un passphrase BIP39. Scegliete la vostra passphrase e inseritela nei campi appropriati. Deve essere il più lungo e casuale possibile per resistere ad un brute-force attack.
 
 
 
-Eseguire immediatamente un backup fisico di questo passphrase. Si tratta di un passo molto importante: in caso di smarrimento del telefono, **se non si dispone più di questo passphrase, non sarà più possibile accedere ai bitcoin** memorizzati con il wallet Ashigaru. Questo stesso passphrase viene utilizzato anche per crittografare il file di recupero del wallet.
+Eseguire immediatamente un backup fisico di questo passphrase. Si tratta di un passo molto importante: in caso di smarrimento del telefono, **se non si dispone più di questa passphrase, non sarà più possibile accedere ai bitcoin** memorizzati con il wallet Ashigaru. Questa passphrase viene utilizzato anche per crittografare il file di recupero del wallet.
 
 
 
-Se non sapete cos'è un passphrase o non ne comprendete appieno il funzionamento, vi consiglio vivamente di leggere questo ulteriore tutorial. È importante, perché il passphrase è un elemento critico della vostra sicurezza: un'incomprensione del suo utilizzo potrebbe comportare la perdita permanente dei vostri fondi.
+Se non sai cos'è una passphrase o non ne comprendi appieno il funzionamento, ti consiglio vivamente di leggere questo ulteriore tutorial. È importante, perché la passphrase è un elemento critico per la tua sicurezza: un'incomprensione del suo utilizzo potrebbe comportare la perdita permanente dei tuoi fondi.
 
 
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Una volta inserito il passphrase, fare clic su `NEXT`.
+Una volta inserito la passphrase, fare clic su `NEXT`.
 
 
 
@@ -239,11 +239,11 @@ Una volta inserito il passphrase, fare clic su `NEXT`.
 
 
 
-Scegliere quindi un codice PIN. Questo codice verrà utilizzato per sbloccare il wallet Ashigaru, proteggendolo dall'accesso fisico non autorizzato. Non partecipa alla derivazione crittografica delle chiavi del wallet. Ciò significa che, anche senza conoscere il codice PIN, chiunque abbia la vostra frase mnemonica e il passphrase sarà in grado di riavere accesso ai vostri bitcoin.
+Scegli un codice PIN. Questo codice verrà utilizzato per sbloccare il wallet Ashigaru, proteggendolo dall'accesso fisico non autorizzato. Non partecipa alla derivazione crittografica delle chiavi del wallet. Ciò significa che, anche senza conoscere il codice PIN, chiunque abbia la tua frase mnemonica e la passphrase sarà in grado di riavere accesso ai tuoi bitcoin.
 
 
 
-Optate per un codice PIN lungo e casuale. Ricordate di tenere una copia di backup in un luogo separato dal telefono, per evitare che vengano compromessi contemporaneamente.
+Opta per un codice PIN lungo e casuale. Ricordati di tenere una copia di backup in un luogo separato dal telefono, per evitare che vengano compromessi contemporaneamente.
 
 
 
@@ -251,15 +251,15 @@ Optate per un codice PIN lungo e casuale. Ricordate di tenere una copia di backu
 
 
 
-Una volta creato il codice PIN, Ashigaru visualizza la frase mnemonica del wallet. Attenzione: questa frase, combinata con il passphrase, dà pieno accesso ai bitcoin. Chiunque ne sia in possesso può impossessarsi dei vostri fondi, anche se non ha accesso al vostro telefono. Questa sequenza di 12 parole può essere utilizzata per ripristinare il wallet in caso di perdita, furto o rottura del telefono. È quindi importante conservarla con la massima cura su un supporto fisico (carta o metallo).
+Una volta creato il codice PIN, Ashigaru visualizza la frase mnemonica del wallet. Attenzione: questa frase, combinata con la passphrase, dà pieno accesso ai bitcoin. Chiunque ne sia in possesso può impossessarsi dei tuoi fondi, anche senza avere accesso al tuo telefono. Questa sequenza di 12 parole può essere utilizzata per ripristinare il wallet in caso di perdita, furto o rottura del telefono. È importante conservarla con la massima cura su un supporto fisico (carta o metallo).
 
 
 
-Non salvate mai questa frase in forma digitale, altrimenti rischiate di esporre i vostri fondi al furto. A seconda della vostra strategia di sicurezza, potete creare diverse copie fisiche, ma non dividetele mai. Mantenete le parole nell'ordine esatto e assicuratevi che siano numerate.
+Non salvare mai questa frase in formato digitale, poiché potresti esporre i tuoi fondi al rischio di furto. A seconda della tua strategia di sicurezza, puoi creare diverse copie fisiche, ma non dividetele mai. Mantenete le parole nell'ordine esatto e assicuratihe siano numerate.
 
 
 
-Infine, non conservare mai il mnemonico e il passphrase nello stesso posto. Se entrambi venissero compromessi contemporaneamente, un malintenzionato potrebbe accedere al wallet.
+Infine, non conservare mai il mnemonico e la passphrase nello stesso posto. Se entrambi venissero compromessi contemporaneamente, un malintenzionato potrebbe accedere al wallet.
 
 
 
@@ -267,13 +267,13 @@ Infine, non conservare mai il mnemonico e il passphrase nello stesso posto. Se e
 
 
 
-Per saperne di più su come proteggere la vostra frase mnemonica, consultate questo tutorial complementare:
+Per saperne di più su come proteggere la tua frase mnemonica, consulta questo tutorial complementare:
 
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Ashigaru chiede quindi di riconfermare il proprio passphrase. Cogliete l'occasione per verificare che il vostro backup fisico sia corretto.
+Ashigaru chiede di riconfermare la propria passphrase. Cogli l'occasione per verificare che il tuo backup fisico sia corretto.
 
 
 
@@ -289,7 +289,7 @@ Successivamente, si passa alla fase di connessione al Dojo. Come spiegato nell'i
 
 
 
-Accedere allo "Strumento di manutenzione" del proprio Dojo e aprire il menu "APPUNTAMENTI".
+Accedere allo "Strumento di manutenzione" del proprio Dojo e aprire il menù "PAIRING".
 
 
 
@@ -297,7 +297,7 @@ Accedere allo "Strumento di manutenzione" del proprio Dojo e aprire il menu "APP
 
 
 
-Su Ashigaru, premere il pulsante "Scansione QR", quindi scansionare il codice QR di connessione visualizzato dal DMT. Quindi fare clic su "Continua" per confermare.
+Su Ashigaru, premere il pulsante "Scan QR", quindi scansionare il codice QR di connessione visualizzato dal DMT. Quindi fare clic su "Continue" per confermare.
 
 
 
@@ -305,7 +305,7 @@ Su Ashigaru, premere il pulsante "Scansione QR", quindi scansionare il codice QR
 
 
 
-Immettere il codice PIN per sbloccare il wallet. Si accede così alla pagina di sincronizzazione. È normale che in questa fase vengano visualizzati errori *PayNym*, poiché il wallet è nuovo. Fare semplicemente clic su "Continua".
+Immettere il codice PIN per sbloccare il wallet. Si accede così alla pagina di sincronizzazione. È normale che in questa fase vengano visualizzati errori *PayNym*, poiché il wallet è nuovo. Fare semplicemente clic su "Continue".
 
 
 
@@ -313,7 +313,7 @@ Immettere il codice PIN per sbloccare il wallet. Si accede così alla pagina di 
 
 
 
-Verrà quindi visualizzata la pagina iniziale del portafoglio.
+Verrà visualizzata la pagina iniziale del wallet.
 
 
 
@@ -321,7 +321,7 @@ Verrà quindi visualizzata la pagina iniziale del portafoglio.
 
 
 
-Prima di proseguire, vi consiglio di effettuare un ripristino di prova quando il wallet non contiene ancora bitcoin. In questo modo si potrà verificare che i backup cartacei funzionino correttamente. Per sapere come fare, seguite questo tutorial:
+Prima di proseguire, ti consiglio di effettuare un ripristino di prova quando il wallet non contiene ancora bitcoin. In questo modo verificarai che i backup cartacei funzionino correttamente. Per sapere come fare, segui questo tutorial:
 
 
 
@@ -331,7 +331,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-Per accedere alle impostazioni dell'applicazione, cliccate sull'immagine del vostro *PayNym* nell'angolo in alto a sinistra, quindi selezionate "Impostazioni".
+Per accedere alle impostazioni dell'applicazione, clicca sull'immagine del tuo *PayNym* nell'angolo in alto a sinistra e selezionare "Settings".
 
 
 
@@ -339,11 +339,11 @@ Per accedere alle impostazioni dell'applicazione, cliccate sull'immagine del vos
 
 
 
-Qui troverete diverse opzioni per adattare il funzionamento di Ashigaru alle vostre esigenze. Tuttavia, vi consiglio vivamente di attivare fin dall'inizio due parametri importanti.
+Qui troverai diverse opzioni per adattare il funzionamento di Ashigaru alle tue esigenze. Tuttavia, ti consiglio vivamente di attivare fin dall'inizio due parametri importanti.
 
 
 
-Iniziate aprendo il menu `Sicurezza > Modalità Stealth`, quindi attivate questa funzione se ne avete bisogno. Questa funzione nasconde l'applicazione Ashigaru dietro il nome, il logo e l'interfaccia di una normale applicazione installata sul telefono. Lo scopo è quello di impedire a chiunque di identificare Ashigaru in caso di ispezione fisica del telefono.
+Apri il menù `Security > Stealth mode`, attiva questa funzione se ne hai bisogno. Questa funzione nasconde l'applicazione Ashigaru dietro il nome, il logo e l'interfaccia di una normale applicazione installata sul telefono. Lo scopo è quello di impedire a chiunque di identificare Ashigaru in caso di ispezione fisica del telefono.
 
 
 
@@ -355,7 +355,7 @@ Ogni applicazione falsa offerta ha un metodo specifico per sbloccare la vera int
 
 
 
-Il secondo parametro importante da attivare è [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Questa opzione consente di aumentare il costo di una transazione se questa rimane bloccata nei mempool perché il costo è troppo basso. È possibile attivarla tramite il menu `Transazioni > Spendi usando RBF`.
+Il secondo parametro importante da attivare è [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Questa opzione consente di aumentare il costo di una transazione se questa rimane bloccata nei mempool perché il costo è troppo basso. È possibile attivarla tramite il menù `Transactions > Spend using RBF`.
 
 
 
@@ -363,7 +363,7 @@ Il secondo parametro importante da attivare è [**RBF** (*Replace-by-Fee*)](http
 
 
 
-Suggerimento: è possibile cambiare l'unità di visualizzazione del portafoglio da `BTC` a `sat` semplicemente facendo clic sul saldo totale visualizzato nella pagina iniziale.
+Suggerimento: è possibile cambiare l'unità di visualizzazione del wallet da `BTC` a `sat` semplicemente facendo clic sul saldo totale visualizzato nella pagina iniziale.
 
 
 
@@ -371,7 +371,7 @@ Suggerimento: è possibile cambiare l'unità di visualizzazione del portafoglio 
 
 
 
-Ora che il portafoglio è operativo, è possibile ricevere i satss. Per farlo, premere il pulsante `+` in basso a destra dell'interfaccia, quindi il pulsante verde `Ricevi`.
+Ora che il wallet è operativo, è possibile ricevere i sats. Per farlo, premere il pulsante `+` in basso a destra dell'interfaccia, quindi il pulsante verde `Receive`.
 
 
 
@@ -379,7 +379,7 @@ Ora che il portafoglio è operativo, è possibile ricevere i satss. Per farlo, p
 
 
 
-Ashigaru vi mostra quindi il primo indirizzo di ricezione inutilizzato nel vostro wallet, per evitare il riutilizzo dell'indirizzo (il riutilizzo dell'indirizzo è una pratica molto negativa per la vostra privacy). È quindi possibile inoltrare questo indirizzo alla persona o al servizio che deve inviare bitcoin.
+Ashigaru ti mostra il primo indirizzo di ricezione inutilizzato nel tuo wallet, per evitare il riutilizzo dell'indirizzo (il riutilizzo dell'indirizzo è una pratica molto negativa per la privacy). È possibile inoltrare questo indirizzo alla persona o al servizio che deve inviare bitcoin.
 
 
 
@@ -399,7 +399,7 @@ Una volta trasmessa in rete, la transazione apparirà automaticamente sulla pagi
 
 
 
-Ora che avete dei bitcoin nella vostra Ashigaru wallet, potete anche inviarli. Per farlo, premere il pulsante `+` in basso a destra, quindi selezionare il pulsante rosso `Invia`.
+Ora che hai dei bitcoin sul tuo Ashigaru wallet, puoi anche inviarli. Per farlo, premere il pulsante `+` in basso a destra, quindi selezionare il pulsante rosso `Send`.
 
 
 
@@ -407,7 +407,7 @@ Ora che avete dei bitcoin nella vostra Ashigaru wallet, potete anche inviarli. P
 
 
 
-Scegliere quindi il conto dal quale si desidera effettuare la spesa. Per il momento non abbiamo ancora affrontato il conto `Postmix`, riservato alle coinjoin, di cui ci occuperemo in un prossimo tutorial. Invieremo quindi i fondi dal conto di deposito principale.
+Scegli il conto dal quale desideri effettuare la spesa. Per il momento non abbiamo ancora affrontato il conto `Postmix`, riservato alle coinjoin, di cui ci occuperemo in un prossimo tutorial. Invia i fondi dal conto di deposito principale.
 
 
 
@@ -415,7 +415,7 @@ Scegliere quindi il conto dal quale si desidera effettuare la spesa. Per il mome
 
 
 
-Inserire i dettagli della transazione: l'importo da inviare e l'indirizzo Bitcoin del destinatario.
+Inserisci i dettagli della transazione: l'importo da inviare e l'indirizzo Bitcoin del destinatario.
 
 
 
@@ -423,7 +423,7 @@ Inserire i dettagli della transazione: l'importo da inviare e l'indirizzo Bitcoi
 
 
 
-Facendo clic sui tre puntini nell'angolo in alto a destra e poi su "Mostra uscite non spese", si può anche scegliere con precisione quali UTXO si desidera spendere, per migliorare la propria privacy.
+Facendo clic sui tre puntini nell'angolo in alto a destra e poi su "Mostra uscite non spese", puoi scegliere con precisione quali UTXO desideri spendere, per migliorare la propria privacy.
 
 
 
@@ -435,22 +435,22 @@ Una volta compilati tutti i dettagli, fare clic sulla freccia bianca in fondo al
 
 
 
-Si accede quindi a una pagina di riepilogo che mostra tutti i dettagli della transazione. Vengono visualizzati diversi elementi importanti:
+Si ha accesso ad una pagina di riepilogo che mostra tutti i dettagli della transazione. Vengono visualizzati diversi elementi importanti:
 
 
 
 
-- Nel blocco `Destinazione`, verificare un'ultima volta che l'indirizzo del destinatario e l'importo inviato siano corretti;
-- Nel blocco `Tasse`, è possibile visualizzare la tariffa selezionata automaticamente da Ashigaru e, se necessario, modificarla cliccando su `MANAGE`;
+- nel blocco `Destination`, verificare un'ultima volta che l'indirizzo del destinatario e l'importo inviato siano corretti;
+- nel blocco `Fees`, è possibile visualizzare la tariffa selezionata automaticamente da Ashigaru e, se necessario, modificarla cliccando su `MANAGE`;
 - Il blocco `Transaction` indica il tipo di transazione che si sta per eseguire. In questo caso, parliamo di una transazione semplice, ma Ashigaru supporta anche altri tipi di transazioni ottimizzate per la privacy, di cui parleremo in dettaglio in un prossimo tutorial;
-- Il blocco rosso "Allarme transazione" avverte l'utente se la transazione mostra schemi che possono essere riconosciuti dagli strumenti di analisi della catena e che potrebbero compromettere la sua privacy. Facendo clic su di esso, è possibile visualizzare i dettagli. Ad esempio, nel mio caso, Ashigaru mi dice che l'importo inviato è rotondo (`3000 sats`), permettendomi di dedurre quale uscita corrisponde alla spesa e quale allo scambio. Per saperne di più su queste euristiche di analisi della catena, vi invito a seguire la mia formazione su BTC 204 su Plan ₿ Academy ;
+- Il blocco rosso `Transaction Alert` avverte l'utente se la transazione mostra schemi che possono essere riconosciuti dagli strumenti di chain analysis che potrebbero compromettere la tua privacy. Facendo clic su Transaction Alert, è possibile visualizzare i dettagli. Ad esempio, nel mio caso, Ashigaru mi dice che l'importo inviato è rotondo (`3000 sats`), permettendomi di dedurre quale uscita corrisponde alla spesa e quale allo scambio. Per saperne di più su queste euristiche di chain analysis, ti invito a seguire la mia formazione su BTC 204 su Plan ₿ Academy;
 - Infine, è possibile aggiungere un'etichetta alla transazione per tenere traccia del suo scopo.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Dopo aver controllato tutte le informazioni, utilizzare la freccia verde per inviare i bitcoin. Tenere premuta la freccia, quindi trascinarla verso destra per confermare il caricamento.
+Dopo aver controllato tutte le informazioni, utilizza la freccia verde per inviare i bitcoin. Tenere premuta la freccia e trascinarla verso destra per confermare il caricamento.
 
 
 
@@ -458,7 +458,7 @@ Dopo aver controllato tutte le informazioni, utilizzare la freccia verde per inv
 
 
 
-La vostra transazione è stata trasmessa sulla rete Bitcoin.
+La tua transazione è stata trasmessa sulla rete Bitcoin.
 
 
 
@@ -474,11 +474,11 @@ Il recupero di un Ashigaru wallet differisce leggermente da quello di un Bitcoin
 
 
 
-Se avete ancora accesso al vostro telefono o se avete fatto una copia di backup di questo file, il metodo più semplice è usare il file di backup `ashigaru.txt`. Questo file contiene tutte le informazioni necessarie per ripristinare il portafoglio su una nuova istanza di Ashigaru (o su Sparrow Wallet), ma è criptato con il passphrase definito al punto 3.1 di questo tutorial. È quindi necessario disporre sia del file `ashigaru.txt` che del passphrase per utilizzare questo metodo.
+Se avete ancora accesso al vostro telefono o se avete fatto una copia di backup di questo file, il metodo più semplice è usare il file di backup `ashigaru.txt`. Questo file contiene tutte le informazioni necessarie per ripristinare il wallet su una nuova istanza di Ashigaru (o su Sparrow Wallet), ma è criptato con la passphrase definita al punto 3.1 di questo tutorial. È quindi necessario disporre sia del file `ashigaru.txt` che della passphrase per utilizzare questo metodo.
 
 
 
-Con questi due elementi è possibile, ad esempio, ripristinare il portafoglio su Sparrow Wallet.
+Con questi due elementi è possibile, ad esempio, ripristinare il wallet su Sparrow Wallet.
 
 
 
@@ -486,17 +486,17 @@ Con questi due elementi è possibile, ad esempio, ripristinare il portafoglio su
 
 
 
-Se non avete accesso al file `ashigaru.txt`, potete comunque recuperare l'accesso ai vostri fondi usando la vostra frase mnemonica del passphrase, proprio come fareste per qualsiasi altro portafoglio del Bitcoin. Vi consiglio di eseguire questo ripristino su una nuova istanza Ashigaru o direttamente sul Sparrow Wallet, per recuperare facilmente i percorsi di bypass dal Whirlpool se lo stavate utilizzando. In alternativa, è possibile importare queste informazioni in qualsiasi altro software compatibile con BIP39 inserendo manualmente i percorsi di derivazione.
+Se non avete accesso al file `ashigaru.txt`, potete comunque recuperare l'accesso ai tuoi fondi usando la tua frase mnemonica e la passphrase, proprio come faresti per qualsiasi altro wallet Bitcoin. Ti consiglio di eseguire questo ripristino su una nuova istanza Ashigaru o su Sparrow Wallet, per recuperare facilmente i percorsi di bypass dal Whirlpool se lo stavate utilizzando. In alternativa, è possibile importare queste informazioni in qualsiasi altro software compatibile con BIP39 inserendo manualmente i percorsi di derivazione.
 
 
 
-Per ulteriori informazioni su questa procedura, consultare il tutorial completo che ho scritto sul recupero di un Wallet Samurai wallet. Poiché l'Ashigaru è un fork, la procedura è identica:
+Per ulteriori informazioni su questa procedura, consultare il tutorial completo che ho scritto sul recupero di un Wallet Samurai wallet. Poiché l'Ashigaru è un fork e la procedura è identica:
 
 
 
 https://planb.academy/tutorials/wallet/backup/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3
 
-Come si può notare, qualunque sia il metodo di ripristino utilizzato, il passphrase è indispensabile. Assicuratevi quindi di eseguire un backup accurato. È anche possibile creare diverse copie, a seconda della propria strategia di sicurezza.
+Come si può notare, qualunque sia il metodo di ripristino utilizzato, la passphrase è indispensabile. Assicurati di eseguire un backup accurato. È possibile creare diverse copie, a seconda della propria strategia di sicurezza.
 
 
 
@@ -504,11 +504,11 @@ Come si può notare, qualunque sia il metodo di ripristino utilizzato, il passph
 
 
 
-Per aggiornare l'app Ashigaru, dato che l'avete installata da un file `.apk` e non tramite il Play Store come una normale app, dovrete scaricare il nuovo file `.apk` corrispondente alla versione aggiornata, quindi installarlo manualmente.
+Per aggiornare l'app Ashigaru, dato che l'avete installata da un file `.apk` e non tramite il Play Store come una normale app, dovrete scaricare il nuovo file `.apk` corrispondente alla versione aggiornata ed installarlo manualmente.
 
 
 
-Ripetete i passaggi descritti nella sezione 2 di questa guida, ma quando fate clic sul file `.apk` per avviare l'installazione, **il vostro telefono Android dovrebbe offrirvi l'opzione `Aggiornamento` e non `Installazione`**.
+Ripetete i passaggi descritti nella sezione 2 di questa guida, ma quando fate clic sul file `.apk` per avviare l'installazione, **il vostro telefono Android dovrebbe offrirvi l'opzione `Update` e non `Install`**.
 
 
 
@@ -532,11 +532,11 @@ Per sapere quando è disponibile una nuova versione, controllate di tanto in tan
 
 
 
-Ashigaru è un progetto open-source. Se volete sostenere il suo sviluppo, potete fare una donazione direttamente dall'applicazione tramite PayNym.
+Ashigaru è un progetto open-source. Se vuoi sostenere il suo sviluppo, puoi fare una donazione direttamente dall'applicazione tramite PayNym.
 
 
 
-Per farlo, cliccare sul proprio PayNym in alto a destra dell'interfaccia, quindi selezionare il codice di pagamento che inizia con `PM...`.
+Per farlo, clicca sul tuo PayNym in alto a destra dell'interfaccia e seleziona il codice di pagamento che inizia con `PM...`.
 
 
 
@@ -544,7 +544,7 @@ Per farlo, cliccare sul proprio PayNym in alto a destra dell'interfaccia, quindi
 
 
 
-Quindi premere il pulsante `+` in basso a destra dello schermo.
+Premi il pulsante `+` in basso a destra dello schermo.
 
 
 
@@ -552,7 +552,7 @@ Quindi premere il pulsante `+` in basso a destra dello schermo.
 
 
 
-Selezionate `Ashigaru Open Source Project` come destinatario.
+Seleziona `Ashigaru Open Source Project` come destinatario.
 
 
 
@@ -560,7 +560,7 @@ Selezionate `Ashigaru Open Source Project` come destinatario.
 
 
 
-Fare clic sul pulsante `CONNECT` per stabilire il canale di comunicazione BIP47 (ulteriori informazioni su questo protocollo sono riportate nel tutorial sottostante).
+Fai clic sul pulsante `CONNECT` per stabilire il canale di comunicazione BIP47 (ulteriori informazioni su questo protocollo sono riportate nel tutorial sottostante).
 
 
 
@@ -578,5 +578,5 @@ Una volta confermata la transazione di notifica, è possibile inviare le donazio
 
 
 
-Ora sapete come utilizzare le funzioni di base dell'applicazione Ashigaru. Nelle prossime esercitazioni vedremo come sfruttare le transazioni di spesa avanzate, oltre a Whirlpool, l'implementazione del coinjoin ereditata da Samurai Wallet.
+Ora sai come utilizzare le funzioni di base dell'applicazione Ashigaru. Nelle prossime esercitazioni vedremo come sfruttare le transazioni di spesa avanzate, oltre a Whirlpool, l'implementazione del coinjoin ereditata da Samurai Wallet.
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
