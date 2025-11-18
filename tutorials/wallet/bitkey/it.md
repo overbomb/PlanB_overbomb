@@ -1,6 +1,6 @@
 ---
-name: Bitkey
-description: Il Hardware Wallet senza semi
+nome: Bitkey
+descrizione: Hardware Wallet senza seed
 ---
 ![cover](assets/cover.webp)
 
