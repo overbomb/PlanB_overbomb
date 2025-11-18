@@ -243,10 +243,10 @@ BitKit si integra con Bitrefill per carte regalo, ricariche telefoniche e altro 
 Toccare Negozio nella navigazione in basso.
 
 
-Scegliete Carte regalo e selezionate un commerciante (ad esempio, Bitrefill).
+Sceglii carte regalo e seleziona un commerciante (ad esempio, Bitrefill).
 
 
-Selezionate un importo (a partire da 1 USD), aggiungete un'e-mail per la consegna, quindi procedete alla cassa.
+Seleziona un importo (a partire da 1 USD), aggiungete un'e-mail per la consegna, quindi procedete alla cassa.
 
 
 Passare il dito per pagare. Il codice della carta regalo arriva via e-mail in pochi secondi.
@@ -265,7 +265,7 @@ Andare su Impostazioni → Generali → Pagamenti rapidi.
 Impostare la soglia e attivare lo switch.
 
 
-Per i piccoli acquisti, come il caffè, non è più necessario strisciare il dito.
+Per i piccoli acquisti, come il caffè, non è più necessario strisciare con il dito sul display.
 
 
 
@@ -295,25 +295,25 @@ Che cos'è un canale?
 Un canale è un tunnel a due parti che contiene liquidità, suddivisa in:
 
 
-In uscita - il vostro Bitcoin, utilizzato per l'invio.
+In uscita - i tuoi Bitcoin, utilizzati per l'invio.
 
 
-In entrata - controparte Bitcoin, richiesta per ricevere.
+In entrata - i Bitcoin della controparte, per ricevere.
 
 
 Trasferimento dal risparmio alla spesa
 
 
-Aprire Risparmi, toccare Trasferimento a spese.
+Aprire Risparmi, cliccare da trasferimento a spese.
 
 
-Inserire l'importo (ad esempio, 25 000 ₿) e toccare Continua.
+Inserire l'importo (ad esempio, 25 000 ₿) e cliccare continua.
 
 
 Approvare la tariffa e attendere la conferma della transazione On-Chain.
 
 
-Una volta aperto, il saldo di spesa e la capacità di ricezione si aggiornano.
+Una volta confermato, il saldo di spesa e la capacità di ricezione si aggiornano.
 
 
 Visualizzare o chiudere un canale
@@ -334,13 +334,13 @@ Nota: per motivi normativi, la liquidità totale di BitKit è limitata a circa n
 ### 14. Caratteristiche avanzate
 
 
-Selezione Coin: consente di scegliere ingressi UTXO specifici per il controllo della privacy o del canone (Impostazioni → Avanzate → Selezione Coin).
+Coin Selection: scegli specifici input UTXO per il controllo della privacy o delle commissioni (Settings → Advanced → Coin Selection).
 
 
 ![image](assets/en/03.webp)
 
 
-Velocità di transazione - scegliere gli obiettivi di tariffa On-Chain Lenta, Normale o Veloce.
+Velocità di transazione - scegliere Lenta, Normale o Veloce ed imposta la commissione on-chain.
 
 
 Valuta locale: passare dal dollaro USA a una qualsiasi delle principali valute fiat in Impostazioni → Generali.
@@ -349,7 +349,7 @@ Valuta locale: passare dal dollaro USA a una qualsiasi delle principali valute f
 ## Congratulazioni
 
 
-Avete installato BitKit, messo in sicurezza il vostro seed, padroneggiato i pagamenti Lightning e persino acquistato la vostra prima carta regalo. Il design di BitKit rende intuitivi i potenti strumenti Bitcoin, ma le chiavi sono sempre in mano vostra. Scaricate BitKit oggi stesso ed entrate nel vero Bitcoin Ownership. Domande o commenti? Contattate il team di BitKit sui social media o tramite il link di supporto in-app.
+Hai installato BitKit, messo in sicurezza il tuo seed, padroneggiato i pagamenti Lightning e persino acquistato la tua prima carta regalo. Il design di BitKit rende intuitivi i potenti strumenti Bitcoin, ma le chiavi sono sempre in mano vostra. Scarica BitKit oggi stesso ed entra nel vero Bitcoin Ownership. Domande o commenti? Contattate il team di BitKit sui social media o tramite il link di supporto in-app.
 
 
 **Nota sull'acquisto o la vendita di Bitcoin**: Bitkit non supporta l'acquisto e la vendita di Bitcoin. Per acquistare o vendere, utilizzare scambi come Bitfinex, quindi inviare a o da Bitkit.
