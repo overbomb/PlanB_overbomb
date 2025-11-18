@@ -1,5 +1,5 @@
 ---
-name: Salvate la vostra frase mnemonica
+name: Salva la tua frase mnemonica
 description: Scopri le migliori pratiche per salvaguardare il tuo wallet Bitcoin
 ---
 ![cover](assets/cover.webp)
