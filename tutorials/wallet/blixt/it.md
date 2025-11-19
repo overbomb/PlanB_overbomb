@@ -1,6 +1,6 @@
 ---
-name: Blixt Wallet
-description: Come iniziare a utilizzare un potente nodo LN sul cellulare?
+nome: Blixt Wallet
+descrizione: Come iniziare a utilizzare un potente nodo LN sul cellulare?
 ---
 ![cover](assets/cover.webp)
 
@@ -18,15 +18,15 @@ Se non avete mai usato il Bitcoin Lightning Network, prima di iniziare [leggete 
 
 
 
-- Blixt è un nodo privato, NON un nodo di routing! Tenetelo a mente: ciò significa che tutti i canali LN in Blixt non saranno annunciati al grafico LN (i cosiddetti canali privati). Ciò significa che questo nodo non effettuerà l'instradamento di altri pagamenti attraverso il nodo Blixt. Questo nodo Blixt NON è per il routing, ripeto. Serve principalmente per poter gestire i propri canali LN ed effettuare i pagamenti LN privatamente, ogni volta che se ne ha bisogno. Questo nodo Blixt deve essere online e sincronizzato SOLO PRIMA di effettuare le transazioni. Ecco perché vedrete un'icona in alto che indica lo stato di sincronizzazione. Ci vogliono solo pochi istanti, a seconda del tempo in cui lo si è tenuto offline.
+- Blixt è un nodo privato, NON un nodo di routing! Tienilo a mente: ciò significa che tutti i canali LN in Blixt non saranno annunciati al grafico LN (i cosiddetti canali privati). Ciò significa che questo nodo non effettuerà l'instradamento di altri pagamenti attraverso il nodo Blixt. Questo nodo Blixt NON è per il routing, ripeto. Serve principalmente per poter gestire i propri canali LN ed effettuare i pagamenti LN privatamente, ogni volta che se ne ha bisogno. Questo nodo Blixt deve essere online e sincronizzato SOLO PRIMA di effettuare le transazioni. Ecco perché vedrete un'icona in alto che indica lo stato di sincronizzazione. Ci vogliono solo pochi istanti, a seconda del tempo in cui lo si è tenuto offline.
 
 
 
-- Blixt utilizza LND (aezeed) come backend Wallet, quindi non cercare di importare altri tipi di portafogli Bitcoin in esso. [Qui sono spiegati i tipi di semi Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ed ecco [un elenco più esteso di tutti i tipi di portafogli](https://walletsrecovery.org/). Quindi, se in precedenza avevate un nodo LND, potete importare il seed e i canali di backup in Blixt, [come spiegato in questa guida](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt utilizza LND (aezeed) come backend Wallet, quindi non cercare di importare altri tipi di wallet Bitcoin in esso. [Qui sono spiegati i tipi di Mnemonic seed Wallet](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ed ecco [un elenco più esteso di tutti i tipi di wallet](https://walletsrecovery.org/). Quindi, se in precedenza avevi un nodo LND, potrai importare il seed ed i canali di backup in Blixt, [come spiegato in questa guida](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
 
 
 
-- Alla fine di questa guida troverete una sezione speciale con ["consigli e trucchi"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Alla fine di questa guida troverai una sezione speciale con ["consigli e trucchi"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
 
 
 
@@ -38,7 +38,7 @@ Se non avete mai usato il Bitcoin Lightning Network, prima di iniziare [leggete 
 ## Blixt - Primo contatto
 
 
-Quindi... la mamma di Darth ha deciso di iniziare a usare il LN con Blixt. Una decisione da Hard, ma saggia. Blixt è solo per le persone intelligenti e per coloro che vogliono davvero imparare di più, l'uso profondo di LN.
+Quindi... la mamma di Darth ha deciso di iniziare a usare Lightnin Network con Blixt. Una dura decisione, ma saggia. Blixt è solo per le persone intelligenti e per coloro che vogliono davvero imparare di più, l'uso profondo di LN (lightning Network).
 
 
 ![blixt](assets/en/01.webp)
@@ -47,7 +47,7 @@ Quindi... la mamma di Darth ha deciso di iniziare a usare il LN con Blixt. Una d
 Darth avverte sua madre:
 
 
-"*Mamma, se inizi a usare il nodo Blixt LN, devi prima sapere cos'è il Lightning Network e come funziona, almeno a livello di base. [Qui ho messo insieme un semplice elenco di risorse sul Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Si prega di leggerle prima.*"
+"*Mamma, se inizi a usare il nodo Blixt LN, devi prima sapere cos'è il Lightning Network e come funziona, almeno a livello base. [Qui ho messo insieme un semplice elenco di risorse sul Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Si prega di leggerle prima.*"
 
 
 La mamma di Darth ha letto le risorse e ha fatto il suo primo passo: installare Blixt sul suo nuovo dispositivo Android. Blixt è disponibile anche per iOS e macOS (desktop). Tuttavia, si consiglia di utilizzare una versione più recente di Android, almeno la 9 o la 10, per una migliore compatibilità ed esperienza. L'esecuzione di un nodo LN completo su un dispositivo mobile non è un compito facile e potrebbe richiedere un po' di spazio (almeno 600 MB) e di memoria.
@@ -626,7 +626,7 @@ Come ho scritto nella [pagina delle guide Blixt](https://blixtwallet.github.io/g
 - aperto con nodi LSP ben noti e con peer garantiti dalla comunità. [Vedi qui un elenco](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
 - non aprire con nodi casuali solo Tor. Sono inutili e avrete solo problemi di impossibilità di effettuare pagamenti. Non importa quanto sia bravo il vostro amico "il corridore di nodi" con un nodo Tor scadente in una giungla, non vi darà mai i migliori percorsi per un nodo privato mobile. Non si aprono canali con qualcuno perché è tuo amico. Questo non è Facebook! Si apre un canale per: buone rotte, piccole tariffe, disponibilità.
 - non è necessario aprire una tonnellata di canali piccoli, 2-3 o al massimo 4, ma con una buona quantità di Sats. Non aprite canali piccoli, sono totalmente inutili. Più piccoli di 200k per un cellulare non servono a molto.
-- tenete presente i LSP che offrono canali in entrata e canali JIT (just in time). Questi sono molto utili perché non è necessario utilizzare nessuno dei vostri UTXO, potete pagare il canale di apertura con i fondi che avete già in altri portafogli LN, impilandoli e preparandoli per l'apertura di un canale più grande. Dovreste usare questi canali JIT a vostro favore. [Ho spiegato in questa guida](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) più opzioni per i peer per i nodi privati come Blixt. Inoltre [in questa guida pubblicata su SN](https://stacker.news/items/679242/r/DarthCoin) ho spiegato come gestire la liquidità dei nodi mobili privati.
+- tenete presente i LSP che offrono canali in entrata e canali JIT (just in time). Questi sono molto utili perché non è necessario utilizzare nessuno dei vostri UTXO, potete pagare il canale di apertura con i fondi che avete già in altri wallet LN, impilandoli e preparandoli per l'apertura di un canale più grande. Dovreste usare questi canali JIT a vostro favore. [Ho spiegato in questa guida](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) più opzioni per i peer per i nodi privati come Blixt. Inoltre [in questa guida pubblicata su SN](https://stacker.news/items/679242/r/DarthCoin) ho spiegato come gestire la liquidità dei nodi mobili privati.
 
 
 ---
