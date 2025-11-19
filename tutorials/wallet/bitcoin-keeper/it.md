@@ -1,6 +1,6 @@
 ---
-name: Bitcoin Keeper
-description: Bitcoin Keeper App un'applicazione mobile che consente di creare sia portafogli Hot che caveau Cold per risparmi a lungo termine
+nome: Bitcoin Keeper
+descrizione: Bitcoin Keeper è un'applicazione mobile che consente di creare sia Hot wallet che Cold wallet per risparmi a lungo termine
 ---
 
 ![cover](assets/cover.webp)
@@ -9,7 +9,7 @@ description: Bitcoin Keeper App un'applicazione mobile che consente di creare si
 ## Introduzione
 
 
-In questo video tutorial viene illustrato come configurare e utilizzare l'applicazione Bitcoin Keeper, un'applicazione mobile che consente di creare portafogli Hot e caveau Cold per i risparmi a lungo termine. Keeper vanta un ampio supporto per i portafogli hardware, compresi gli articoli di Coinkite come Coldcard e Tapsigner.
+In questo video tutorial viene illustrato come configurare e utilizzare l'applicazione Bitcoin Keeper, un'applicazione mobile che consente di creare how e cold wallet per i risparmi a lungo termine. Keeper vanta di un ampio supporto per gli hardware wallet, compresi gli articoli di Coinkite come Coldcard e Tapsigner.
 
 
 ![video](https://youtu.be/st9Oe4Dxxl4)
