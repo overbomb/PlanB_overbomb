@@ -1,6 +1,6 @@
 ---
-name: Blink
-description: Esercitazione completa su Blink Wallet - Inviare, ricevere e utilizzare il Bitcoin con facilità
+nome: Blink
+descrizione: Esercitazione completa su Blink Wallet - Inviare, ricevere e utilizzare Bitcoin con facilità
 ---
 
 ![cover](assets/cover.webp)
@@ -17,10 +17,10 @@ description: Esercitazione completa su Blink Wallet - Inviare, ricevere e utiliz
 ![image](assets/fr/01.webp)
 
 
-Dimenticate tutto quello che pensate di sapere sul fatto che i portafogli Bitcoin siano complicati. Blink è l'iPhone dei portafogli Bitcoin.
+Dimenticate tutto quello che pensate di sapere sul fatto che i wallet Bitcoin siano complicati. Blink è l'iPhone dei wallet Bitcoin.
 
 
-Precedentemente nota come Bitcoin Beach Wallet, Blink è un'applicazione mobile di facile utilizzo che porta il Bitcoin a tutti, ovunque nel mondo. È stata originariamente [costruita per la comunità Bitcoin Beach](https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) in El Salvador, e ora aiuta le persone di tutto il mondo a inviare, ricevere e utilizzare il Bitcoin senza alcuno sforzo.
+Precedentemente nota come Bitcoin Beach Wallet, Blink è un'applicazione mobile di facile utilizzo che porta Bitcoin a tutti, ovunque nel mondo. È stata originariamente [costruita per la comunità Bitcoin Beach](https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) in El Salvador, e ora aiuta le persone di tutto il mondo a inviare, ricevere e utilizzare il Bitcoin senza alcuno sforzo.
 
 
 Sia che siate alle prime armi con Bitcoin sia che siate utenti esperti, questa guida vi spiega tutto ciò che dovete sapere per iniziare.
@@ -30,25 +30,25 @@ Sia che siate alle prime armi con Bitcoin sia che siate utenti esperti, questa g
 
 
 
-- Supporto della doppia valuta: Conserva facilmente sia Bitcoin (BTC) che Stablesats (equivalenti a USD)
-- Lightning Network: transazioni veloci ed economiche Bitcoin
-- Stablesats: Mantenere il proprio valore stabile in USD mentre si utilizza la rete di pagamento di Bitcoin
-- Configurazione semplice: Richiede solo il numero di telefono
-- Mappa dei commercianti globali: Trova le aziende che accettano il Bitcoin
+- supporto della doppia valuta: conserva facilmente sia Bitcoin (BTC) che stablecoin (equivalenti a USD);
+- Lightning Network: transazioni Bitcoin veloci ed economiche;
+- stablecoin: mantenere il proprio valore in USD mentre si utilizza la rete di pagamento di Bitcoin;
+- configurazione semplice: richiede solo il numero di telefono;
+- mappa dei commercianti globali: trova le aziende che accettano il Bitcoin.
 
 
-La parte più bella? È possibile passare da "Voglio tenere il Bitcoin perché penso che salirà" a "Voglio solo dollari stabili per i miei soldi del caffè" con un solo tocco.
+La parte più bella? È possibile passare da "voglio tenere Bitcoin perché penso che il suo controvalore in dollari salirà" a "voglio solo dollari per i miei soldi del caffè" con un solo tocco.
 
 
 ## Prerequisiti
 
 
-Prima di iniziare, è necessario
+Prima di iniziare, è necessario:
 
 
-- Uno smartphone (iOS o Android)
-- Un numero di telefono (per la verifica)
-- Accesso a Internet
+- uno smartphone (iOS o Android);
+- un numero di telefono (per la verifica);
+- accesso a Internet.
 
 
 ## Impostazione iniziale
