@@ -1,14 +1,14 @@
 ---
-name: Blitz Wallet
+nome: Blitz Wallet
 
 
-description: Il portafoglio Bitcoin più semplice.
+description: Il wallet Bitcoin più semplice.
 ---
 ![cover](assets/cover.webp)
 
 
 
-L'esperienza d'uso è uno dei fattori decisivi quando si tratta di iniziare a lavorare con un Wallet. In questo tutorial vi presenteremo un Wallet che ha fatto della sua esperienza d'uso un fattore decisivo: Blitz Wallet offre il portafoglio Bitcoin più semplice e completo che si possa trovare.
+L'esperienza d'uso è uno dei fattori decisivi quando si tratta di iniziare ad usare con un Wallet. In questo tutorial vi presenteremo un Wallet che ha fatto della sua esperienza d'uso un fattore decisivo: Blitz Wallet offre il wallet Bitcoin più semplice e completo che si possa trovare.
 
 
 
@@ -16,7 +16,7 @@ L'esperienza d'uso è uno dei fattori decisivi quando si tratta di iniziare a la
 
 
 
-Blitz Wallet è un Bitcoin autocustodito il cui codice sorgente è disponibile (Open Source), che si concentra sulla vostra sovranità e su un'esperienza d'uso che lo rende facile da utilizzare.
+Blitz Wallet è un wallet Bitcoin self-custody (detieni le chiavi private per l'accesso ai tuoi bitcoin) il cui codice sorgente è disponibile (Open Source), che si concentra sulla tua sovranità e su un'esperienza d'uso che lo rende semplice da usare.
 
 
 
@@ -24,7 +24,7 @@ Blitz Wallet è un Bitcoin autocustodito il cui codice sorgente è disponibile (
 
 
 
-⚠️**IMPORTANTE**: Scaricare un Bitcoin Wallet su una piattaforma ufficiale è importante per verificare l'autenticità dell'applicazione e, di conseguenza, per rafforzare la sicurezza dei vostri fondi.
+⚠️**IMPORTANTE**: Scaricare un Bitcoin Wallet su una piattaforma ufficiale è importante per verificare l'autenticità dell'applicazione e, di conseguenza, per rafforzare la sicurezza dei tuoi fondi.
 
 
 
@@ -36,26 +36,26 @@ In questo tutorial ci baseremo sulla versione Android di Blitz Wallet, ma tutti 
 
 
 
-Poiché Blitz Wallet è un portafoglio autonomo di Bitcoin, potete scegliere di creare un nuovo portafoglio o importare le parole di recupero 12/24 da un portafoglio già esistente.
+Poiché Blitz Wallet è un wallet self-custodial, puoi scegliere di creare un nuovo wallet o importare le parole di recupero 12/24 da un wallet già esistente.
 
 
 
-In questo caso, iniziamo con la creazione di un nuovo portafoglio. Vedere di seguito le nostre raccomandazioni per il backup delle frasi di backup.
+In questo caso, iniziamo con la creazione di un nuovo wallet. Vedere di seguito le nostre raccomandazioni per il backup delle frasi di backup.
 
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-iMPORTANTE: Queste 12 / 24 parole di recupero sono essenziali per accedere ai vostri bitcoin. Se le perdete, non sarete più autorizzati a spendere i vostri bitcoin.
+iMPORTANTE: Queste 12 / 24 parole di recupero sono essenziali per accedere ai tuoi bitcoin. Se le perdi, non sarai più autorizzato a spendere i tuoi bitcoin.
 
 
 
-Non le vostre chiavi, né i vostri bitcoin.
+"Not your keys, not your bitcoins".
 
 
 
 
-Creare quindi un codice PIN per autenticare l'accesso al proprio Wallet.
+Crea un codice PIN per autenticare l'accesso al proprio Wallet.
 
 
 
@@ -67,11 +67,11 @@ Creare quindi un codice PIN per autenticare l'accesso al proprio Wallet.
 
 
 
-Il trading con Blitz è più intuitivo rispetto a quello della maggior parte degli altri portafogli Bitcoin.
+Il trading con Blitz è più intuitivo rispetto a quello della maggior parte degli altri wallet Bitcoin.
 
 
 
-Nel menu del Wallet, il Interface è minimalista e si concentra esclusivamente sulle azioni principali:
+Nel menù del Wallet, l'interfaccia è minimalista e si concentra esclusivamente sulle azioni principali:
 
 
 
@@ -79,7 +79,7 @@ Nel menu del Wallet, il Interface è minimalista e si concentra esclusivamente s
 
 
 
-Per ricevere bitcoin sul vostro Blitz Wallet, fate clic sull'icona "Freccia giù", inserite l'importo di satoshis che desiderate ricevere e il Wallet creerà un Invoice da condividere con il mittente.
+Per ricevere bitcoin sul tuo Blitz Wallet, fai clic sull'icona "Freccia giù", inserisci l'importo in satoshi che desideri ricevere e il Wallet creerà un Invoice da condividere con il mittente.
 
 
 
@@ -87,31 +87,30 @@ Per ricevere bitcoin sul vostro Blitz Wallet, fate clic sull'icona "Freccia giù
 
 
 
-Una delle caratteristiche speciali di Blitz Wallet è che supporta reti e canali diversi dall'ecosistema Bitcoin:
+Una delle caratteristiche speciali di Blitz Wallet è che supporta reti e canali diversi dell'ecosistema Bitcoin:
 
 
 
 
 
-- **Lightning Network**: Una delle sovrapposizioni del Bitcoin che consente di effettuare microtransazioni istantaneamente.
+- **Lightning Network**: Un second layer di Bitcoin che consente di effettuare microtransazioni istantaneamente.
 
 
 
 
 
-- **Bitcoin Mainnet**: La catena principale del protocollo Bitcoin, adatta a transazioni di grande valore.
+- **Bitcoin Mainnet**: La blockchain principale del protocollo Bitcoin, adatta a transazioni di grande valore.
 
 
 
 
 
-- **Liquid Network**: Una catena parallela alla Bitcoin Mainnet sviluppata da BlockStream che utilizza Liquid Bitcoin per eseguire operazioni veloci, Confidential Transactions.
-
-
+- **Liquid Network**: Una chain parallela alla Bitcoin Mainnet sviluppata da BlockStream che utilizza Liquid Bitcoin (LBTC) per eseguire operazioni veloci.
+  
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
-Per impostazione predefinita, tutte le transazioni avverranno su Liquid Network, ma Blitz consente di definire la rete su cui si desidera ricevere i satoshi facendo clic sul pulsante **Scegli formato**.
+Per impostazione predefinita, tutte le transazioni avverranno su Liquid Network, ma Blitz consente di definire la rete su cui si desidera ricevere i satoshi facendo clic sul pulsante **Choose format**.
 
 
 
@@ -123,15 +122,15 @@ Per impostazione predefinita, tutte le transazioni avverranno su Liquid Network,
 
 
 
-Blitz Wallet consente di inviare facilmente bitcoin dalla sua Wallet.
+Blitz Wallet consente di inviare facilmente bitcoin.
 
 
 
-Nel menu **Contatti** è possibile registrare i nomi utente Blitz o gli URL Lightning con cui si interagisce maggiormente.
+Nel menù **Contacts** è possibile registrare i nomi utente Blitz o gli URL Lightning con cui si interagisce maggiormente.
 
 
 
-In questo modo è possibile inviare facilmente i satoshis a questi indirizzi, evitando la fase di scansione e di inserimento manuale del Address.
+In questo modo è possibile inviare facilmente i satoshis a questi indirizzi, evitando la fase di scansione e di inserimento manuale del address.
 
 
 
@@ -143,15 +142,15 @@ In questo modo è possibile inviare facilmente i satoshis a questi indirizzi, ev
 
 
 
-Oltre ai metodi classici di invio di Bitcoin (codice QR, inserimento manuale), utilizzando i contatti pre-registrati nel vostro Wallet, potete inviare Satss al vostro destinatario in soli tre clic.
+Oltre ai metodi classici di invio di Bitcoin (codice QR, inserimento manuale), utilizzando i contatti pre-registrati nel tuo Wallet, puoi inviare Sats al tuo destinatario in soli tre clic.
 
 
 
-Nel menu **Wallet**, cliccare sul pulsante "Freccia su", scegliere il metodo di invio dei bitcoin, quindi inserire l'importo da inviare e procedere con la conferma.
+Nel menù **Wallet**, clicca sul pulsante "Up Arrow", scegliere il metodo di invio dei bitcoin, inserire l'importo da inviare e procedere con la conferma.
 
 
 
-L'importo minimo per inviare il Bitcoin in Blitz Wallet è attualmente di 1.000 satoshi.
+L'importo minimo per inviare Bitcoin in Blitz Wallet è attualmente di 1.000 satoshi.
 
 
 
@@ -163,13 +162,13 @@ L'importo minimo per inviare il Bitcoin in Blitz Wallet è attualmente di 1.000 
 
 
 
-Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio dove è possibile utilizzare i bitcoin per pagare i servizi digitali.
+Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio dove è possibile utilizzare bitcoin per pagare i servizi digitali.
 
 
 
 
 
-- **Accesso ai servizi di intelligenza artificiale**: Utilizzate modelli di intelligenza artificiale generativa come: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 e pagate direttamente in bitcoin.
+- **Accesso ai servizi di intelligenza artificiale**: Utilizzae modelli di intelligenza artificiale generativa come: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 e paga direttamente in bitcoin.
 
 
 
@@ -179,7 +178,7 @@ Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio do
 
 
 
-- **Inviare messaggi di testo in tutto il mondo**: Nel negozio Blitz, avete accesso a un servizio GSM che vi permette di inviare messaggi di testo in forma anonima in tutto il mondo, con fatturazione diretta in Bitcoin.
+- **Invia messaggi di testo in tutto il mondo**: Nel negozio Blitz, hai accesso ad un servizio GSM che ti permette di inviare messaggi di testo in forma anonima in tutto il mondo, con addebito diretto in Bitcoin.
 
 
 
@@ -189,7 +188,7 @@ Oltre alle operazioni di trasferimento Bitcoin, Blitz Wallet offre un negozio do
 
 
 
-- **Navigate in totale riservatezza**: Pagate un abbonamento WireGuard VPN (Virtual Private Network) nel negozio Wallet Blitz con i vostri bitcoin.
+- **Naviga in totale riservatezza**: Paga un abbonamento WireGuard VPN (Virtual Private Network) nel negozio Wallet Blitz con bitcoin.
 
 
 
@@ -223,7 +222,7 @@ Questo approccio è giustificato dal desiderio di facilitare l'esperienza di avv
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-È possibile visualizzare la ripartizione del saldo nel menu **Impostazioni>Informazioni sul saldo**.
+È possibile visualizzare la ripartizione del saldo nel menù **Settings>Balance Info**.
 
 
 
@@ -235,7 +234,7 @@ Blitz Wallet offre tuttavia la possibilità di attivare la modalità Lightning, 
 
 
 
-Per attivare la modalità Lightning, accedere a **Impostazioni**, quindi nella sezione **Impostazioni tecniche** fare clic sull'opzione **Informazioni sul nodo**.
+Per attivare la modalità Lightning, accedere a **Settings**, quindi nella sezione **Technical Settings** fare clic sull'opzione **Node Info**.
 
 
 
@@ -249,7 +248,7 @@ Attivando la modalità Lightning, una volta soddisfatta la condizione principale
 
 
 
-- **Accettare il Bitcoin nel proprio negozio**:
+- **Accettare Bitcoin nel proprio negozio**:
 
 
 
@@ -257,7 +256,7 @@ L'integrazione dei pagamenti Bitcoin nei negozi è ancora in fase di sperimentaz
 
 
 
-Nel menu **Impostazioni>Punto vendita** è possibile impostare l'identificativo univoco associato al proprio negozio e la valuta fiat locale in cui si desidera ricevere i pagamenti.
+Nel menù **Settings>Point-of-sale** è possibile impostare l'identificativo univoco associato al proprio negozio e la valuta fiat locale in cui si desidera ricevere i pagamenti.
 
 
 
@@ -265,7 +264,7 @@ Nel menu **Impostazioni>Punto vendita** è possibile impostare l'identificativo 
 
 
 
-Se questa esercitazione vi ha aiutato a familiarizzare con Blitz, siamo sicuri che vi piacerà altrettanto l'esercitazione su Muun Wallet. Scoprite Muun, un Wallet semplice e potente come il Bitcoin.
+Se questo tutorial ti ha aiutato a familiarizzare con Blitz, siamo sicuri che ti piacerà altrettanto il tutorial su Muun Wallet. Scopri Muun, un Wallet semplice e potente come  Bitcoin.
 
 
 
