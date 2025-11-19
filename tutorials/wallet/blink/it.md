@@ -54,26 +54,26 @@ Prima di iniziare, è necessario:
 ## Impostazione iniziale
 
 
-Ecco cosa ha sconvolto molti utenti: L'installazione di Blink è più veloce della creazione di un account di social media, perché non ci sono documenti, né upload di documenti d'identità, né attese. Semplicemente veloce e facile.
+Ecco cosa ha meravigliato molti utenti: l'installazione di Blink è più veloce della creazione di un account di social media, perché non ci sono documenti, né upload di documenti d'identità, né attese. Semplicemente veloce e facile.
 
 
 **L'intero processo**
 
 
-- Scaricare Blink Wallet
- - Cercare "Blink Wallet" su [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) o [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), a seconda del dispositivo.
- - È anche possibile scaricarlo direttamente dal sito web [Blink Wallet] (https://blink.sv).
-- Creare un Wallet
- - Toccare "Crea nuovo Wallet"
- - Accettare i termini e le condizioni
- - Inserire il numero di telefono
- - Verificate con SMS o WhatsApp per ricevere il vostro codice
- - Inserire il codice per verificare
-- Fatto, è tutto.
- - Il vostro numero di telefono diventa il vostro login. Tutto qui.
+- scaricare Blink Wallet
+ - cercare "Blink Wallet" su [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) o [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), a seconda del dispositivo;
+ - è anche possibile scaricarlo direttamente dal sito web [Blink Wallet] (https://blink.sv);
+- creare un Wallet;
+ - clicca su "Crea nuovo Wallet";
+ - accetta i termini e le condizioni;
+ - inserisci il numero di telefono;
+ - verifica con SMS o WhatsApp per ricevere il vostro codice;
+ - Inserisci il codice per verificare;
+- fatto, è tutto.
+ - Il tuo numero di telefono diventa il tuo login. Tutto qui.
 
 
-## Capire il vostro Wallet Interface
+## Capire l'interfaccia del wallet
 
 
 ![image](assets/fr/02.webp)
