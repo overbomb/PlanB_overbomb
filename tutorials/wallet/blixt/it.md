@@ -59,7 +59,7 @@ Una volta aperto Blixt, la schermata di "benvenuto" vi darà alcune opzioni:
 ![blixt](assets/en/02.webp)
 
 
-Nell'angolo in alto a destra sono presenti 3 puntini che attivano un menu con:
+Nell'angolo in alto a destra sono presenti 3 puntini che attivano un menù con:
 
 
 
@@ -71,10 +71,10 @@ Nell'angolo in alto a destra sono presenti 3 puntini che attivano un menu con:
 ### OPZIONE A - Creare un nuovo Wallet
 
 
-Se si sceglie di "creare un nuovo Wallet", si verrà reindirizzati direttamente alla schermata principale del Blixt Wallet.
+Se scegli di "create a new wallet", verrai reindirizzato direttamente alla schermata principale del Blixt Wallet.
 
 
-Questo è il vostro "cockpit" ed è anche il "Main LN Wallet", quindi sappiate che vi mostrerà solo l'equilibrio del vostro LN Wallet. Il Wallet di riserva viene visualizzato separatamente (vedere C).
+Questo è il tuo "abitacolo" ed è anche il "Main LN Wallet", quindi ti mostrerà solo il bilancio del tuo LN Wallet. Il bilancio On-Chain viene visualizzato separatamente (vedere C).
 
 
 ![blixt](assets/en/03.webp)
@@ -89,22 +89,22 @@ A - Icona dell'indicatore di sincronizzazione dei blocchi Blixt. È la cosa più
 ![blixt](assets/en/04.webp)
 
 
-È inoltre possibile fare clic sul pulsante "Mostra registro LND" (A) se si desidera visualizzare e leggere ulteriori dettagli tecnici del registro LND, in tempo reale. È molto utile per il debug e per imparare meglio il funzionamento del LN.
+È inoltre possibile fare clic sul pulsante "Show LND Log" (A) se si desidera visualizzare e leggere ulteriori dettagli tecnici dei log LND, in tempo reale. È molto utile per il debug e per imparare meglio il funzionamento del LN.
 
 
-B - Qui è possibile accedere a tutte le impostazioni di Blixt, e sono molte! Blixt offre molte funzioni e opzioni per gestire il vostro nodo LN come un professionista. Tutte queste opzioni sono spiegate in dettaglio nella sezione "[Blixt Features Page](https://blixtwallet.github.io/features#blixt-options) - Options Menu".
+B - Qui è possibile accedere a tutte le impostazioni di Blixt, e sono molte! Blixt offre molte funzioni e opzioni per gestire il tuo nodo LN come un professionista. Tutte queste opzioni sono spiegate in dettaglio nella sezione "[Blixt Features Page](https://blixtwallet.github.io/features#blixt-options) - Options menù".
 
 
-C - Qui c'è il menu "Magic Drawer", [spiegato in dettaglio anche qui](https://blixtwallet.github.io/features#blixt-drawer). Qui si trovano i canali "Onchain Wallet" (B), Lightning Channels (C), Contatti, icona di stato dei canali (A), Keysend (D).
+C - Qui c'è il menù "Magic Drawer", [spiegato in dettaglio anche qui](https://blixtwallet.github.io/features#blixt-drawer). Qui si trovano i canali "Onchain Wallet" (B), Lightning Channels (C), Contatti, icona di stato dei canali (A), Keysend (D).
 
 
 ![blixt](assets/en/05.webp)
 
 
-D - È il menu di aiuto, con collegamenti alla pagina delle FAQ/Guide, al contatto con lo sviluppatore, alla pagina Github e al gruppo di supporto Telegram.
+D - È il menù di aiuto, con collegamenti alla pagina delle FAQ/Guide, al contatto con lo sviluppatore, alla pagina Github e al gruppo di supporto Telegram.
 
 
-E - Indica il tuo primo BTC Address, dove puoi depositare il tuo primo test Sats. QUESTO È FACOLTATIVO! Se si deposita direttamente in quel Address, si apre un canale LN verso il nodo Blixt. Ciò significa che vedrete il vostro Sats depositato andare in un'altra transazione onchain (tx), per aprire quel canale LN. È possibile verificarlo nella catena Blixt onchain Wallet (vedi punto C), cliccando sul menu TX in alto a destra.
+E - Indica il tuo primo BTC Address, dove puoi depositare il tuo primo test Sats. QUESTO È FACOLTATIVO! Se si deposita direttamente in quel Address, si apre un canale LN verso il nodo Blixt. Ciò significa che vedrete il vostro Sats depositato andare in un'altra transazione onchain (tx), per aprire quel canale LN. È possibile verificarlo nella catena Blixt onchain Wallet (vedi punto C), cliccando sul menù TX in alto a destra.
 
 
 ![blixt](assets/en/06.webp)
@@ -119,16 +119,16 @@ RACCOMANDAZIONE:
 Dopo aver testato diverse situazioni, siamo arrivati alla conclusione che è molto più efficiente aprire canali tra 1 e 5 M Sats. I canali più piccoli tendono a esaurirsi rapidamente e a pagare una percentuale più alta di canoni rispetto ai canali più grandi.
 
 
-F - Indica il saldo principale del Lightning Wallet. Questo NON è il saldo totale del Wallet di Blixt, ma rappresenta solo il Sats che avete nei canali Lightning, disponibile per l'invio. Come indicato in precedenza, il Wallet Onchain è separato. Tenete presente questo aspetto. Il Wallet onchain è separato per un motivo importante: è usato principalmente per aprire/chiudere i canali LN.
+F - Indica il saldo principale del Lightning Wallet. Questo NON è il saldo totale del Wallet di Blixt, ma rappresenta solo il Sats che avete nei canali Lightning, disponibili per l'invio. Come indicato in precedenza, il Wallet Onchain è separato. Tieni presente questo aspetto. Il Wallet onchain è separato per un motivo importante: è usato principalmente per aprire/chiudere i canali LN.
 
 
-Ok, ora la mamma di Darth ha depositato un po' di Sats nella Address onchain visualizzata nella schermata principale. Si raccomanda di mantenere l'applicazione Blixt online e attiva per un po' di tempo, fino a quando i minatori non avranno prelevato il BTC nel primo blocco.
+Ok, ora la mamma di Darth ha depositato un po' di Sats nell' Address onchain visualizzato nella schermata principale. Si raccomanda di mantenere l'applicazione Blixt online e attiva per un po' di tempo, fino a quando i miner non avranno incluso la transazione nel blocco.
 
 
-Dopo di che potrebbero volerci fino a 20-30 minuti prima che il canale sia completamente confermato e aperto e lo vedrete nel Magic Drawer - Lightning Channels come attivo. Anche il piccolo punto colorato in cima al cassetto, se si tratta di Green, indicherà che il vostro canale LN è online e pronto per essere usato per inviare Sats su LN.
+Dopo di che potrebbero volerci fino a 20-30 minuti prima che il canale sia completamente confermato e aperto e lo vedrete nel Magic Drawer - Lightning Channels come attivo. Anche il piccolo punto colorato in cima, se diventa verde, indicherà che il vostro canale LN è online e pronto per essere usato per inviare Sats su LN.
 
 
-Il Address e il messaggio di benvenuto visualizzato scompariranno. Non è più necessario aprire un canale automatico. È possibile disattivare l'opzione nel menu Impostazioni.
+L'address ed il messaggio di benvenuto visualizzato scompariranno. Non è più necessario aprire un canale automatico. È possibile disattivare l'opzione nel menù Impostazioni.
 
 
 È il momento di andare avanti, testando altre funzioni e opzioni per aprire i canali LN.
@@ -144,30 +144,30 @@ Si tratta di un'operazione molto semplice, che richiede solo alcuni passaggi e u
 
 
 
-- Inserito nell'elenco dei pari della [Blixt Community](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
-- Selezionare un nodo e fare clic sul link del titolo del nome, per aprire la pagina di Amboss
-- Fare clic per visualizzare il codice QR per il nodo URI Address
+- vai alla lista dei peer della [Blixt Community](https://github.com/hsjoberg/blixt-Wallet/issues/1033);
+- seleziona un nodo e clicca sul link del suo nome; si aprirà la sua pagina Amboss.
+  - Clicca per visualizzare il QR code per l'indirizzo URI del nodo.
 
 
 ![blixt](assets/en/07.webp)
 
 
-Aprite Blixt e andate nel cassetto superiore - Canali Lightning e fate clic sul pulsante "+"
+Apri Blixt e vai nel riquadro superiore - Lightning Channels e fai clic sul pulsante "+"
 
 
 ![blixt](assets/en/08.webp)
 
 
-A questo punto, fare clic sulla telecamera (A) per scansionare il codice QR dalla pagina di Amboss e i dettagli del nodo verranno compilati. Aggiungere l'importo del Sats per il canale desiderato e selezionare la tariffa per la trasmissione. È possibile lasciare il valore automatico (B) per una conferma più rapida o regolarlo manualmente facendo scorrere il pulsante. È anche possibile premere a lungo il numero e modificarlo a piacimento.
+A questo punto, clicca sulla telecamera (A) per scansionare il QR code dalla pagina di Amboss e i dettagli del nodo verranno compilati. Inserisci l'importo di Sats che desideri per il canale e seleziona la tariffa per la commissione della transazione. Puoi lasciare il valore automatico (B) per una conferma più rapida o regolarlo manualmente facendo scorrere il pulsante. È possibile premere a lungo il numero e modificarlo a piacimento.
 
 
 Non mettere meno di 1 sat/vbyte! Di solito è meglio consultare le [Tariffe Mempool](https://Mempool.space/) prima di aprire un canale e selezionare una tariffa conveniente.
 
 
-Fatto, ora basta cliccare sul pulsante "apri canale" e attendere 3 conferme, che di solito richiedono 30 minuti (1 blocco circa ogni 10 minuti).
+Fatto, ora basta cliccare sul pulsante "open channel" e attendere 3 conferme, che di solito richiedono 30 minuti (1 blocco circa ogni 10 minuti).
 
 
-Una volta confermato, il canale sarà attivo nella sezione "Canali Lightning".
+Una volta confermato, il canale sarà attivo nella sezione "Lightning Channels".
 
 
 ---
@@ -187,14 +187,14 @@ Perché? Avete letto le guide indicate all'inizio? No? Tornate indietro e legget
 ![blixt](assets/en/10.webp)
 
 
-Come si può vedere in questo esempio, il canale aperto con il primo deposito non ha troppa liquidità INBOUND ("Può ricevere") ma ha molta liquidità OUTBOUND ("Può inviare").
+Come si può vedere in questo esempio, il canale aperto con il primo deposito non ha molta liquidità INBOUND ("Può ricevere") ma ha molta liquidità OUTBOUND ("Può inviare").
 
 
-Quali opzioni avete quindi se volete ricevere più Sats che LN?
+Quali opzioni hai quindi se vuoi ricevere più Sats su LN?
 
 
 
-- Spendere un po' di Sats dal canale esistente. Sì, LN è una rete di pagamento di Bitcoin, utilizzata principalmente per spendere il proprio Sats in modo più veloce, economico, privato e semplice. Il LN NON è un modo per fare hodling, per quello c'è il Wallet onchain.
+- Spendere un po' di Sats dal canale esistente. Sì, LN è una rete di pagamento di Bitcoin, utilizzata principalmente per spendere i propri Sats in modo più veloce, economico, privato e semplice. Il LN NON è un modo per fare hodling, per quello c'è il Wallet onchain.
 
 
 
@@ -271,10 +271,10 @@ Ma spieghiamo in modo semplice questo processo. Come si può vedere nell'immagin
 Tuttavia, se in precedenza non avevate alcun canale LN aperto, non è necessario caricare alcun file channels.backup. È sufficiente inserire le 24 parole seed e premere il pulsante di ripristino.
 
 
-Non dimenticare di attivare Tor, dal menu a 3 punti in alto, come abbiamo spiegato nella sezione Opzione A. Questo è il caso in cui si hanno SOLO peer Tor e non si può essere contattati tramite clearnet (dominio/IP). Altrimenti non è necessario.
+Non dimenticare di attivare Tor, dal menù a 3 punti in alto, come abbiamo spiegato nella sezione Opzione A. Questo è il caso in cui si hanno SOLO peer Tor e non si può essere contattati tramite clearnet (dominio/IP). Altrimenti non è necessario.
 
 
-Un'altra funzione utile è quella di impostare uno specifico nodo Bitcoin dal menu superiore. Per impostazione predefinita sincronizza i blocchi da node.blixtwallet.com (modalità neutrino), ma è possibile impostare qualsiasi altro nodo Bitcoin che fornisca la sincronizzazione neutrino.
+Un'altra funzione utile è quella di impostare uno specifico nodo Bitcoin dal menù superiore. Per impostazione predefinita sincronizza i blocchi da node.blixtwallet.com (modalità neutrino), ma è possibile impostare qualsiasi altro nodo Bitcoin che fornisca la sincronizzazione neutrino.
 
 
 Una volta compilate queste opzioni e premuto il pulsante di ripristino, Blixt inizierà a sincronizzare i blocchi attraverso Neutrino, come abbiamo spiegato nel capitolo Primo contatto. Quindi, siate pazienti e osservate il processo di ripristino nella schermata principale, facendo clic sull'icona di sincronizzazione.
@@ -289,13 +289,13 @@ Come si può vedere in questo esempio, mostra che i blocchi Bitcoin sono sincron
 Questo processo richiede tempo! Quindi, siate pazienti e cercate di mantenere il vostro Blixt attivo e online. La sincronizzazione iniziale potrebbe richiedere fino a 6-8 minuti e la chiusura dei canali potrebbe richiedere fino a 10-15 minuti. Quindi è meglio che il dispositivo sia ben carico.
 
 
-Una volta avviato questo processo, si può controllare nel Magic Drawer - Lightning Channels lo stato di ciascuno dei canali precedenti, mostrando che sono in stato di "pending to close". Una volta chiuso ogni canale, si può vedere il tx di chiusura nel Wallet onchain (vedere Magic Drawer - Onchain) e aprire il registro del menu tx.
+Una volta avviato questo processo, si può controllare nel Magic Drawer - Lightning Channels lo stato di ciascuno dei canali precedenti, mostrando che sono in stato di "pending to close". Una volta chiuso ogni canale, si può vedere il tx di chiusura nel Wallet onchain (vedere Magic Drawer - Onchain) e aprire il registro del menù tx.
 
 
 ![blixt](assets/en/15.webp)
 
 
-Inoltre, è bene controllare e aggiungere, se non ci sono, i peer precedentemente presenti nel vecchio nodo LN. Andate quindi al menu Impostazioni, scendete a "Lightning Network" e inserite l'opzione "Mostra peer fulminei".
+Inoltre, è bene controllare e aggiungere, se non ci sono, i peer precedentemente presenti nel vecchio nodo LN. Andate quindi al menù Impostazioni, scendete a "Lightning Network" e inserite l'opzione "Mostra peer fulminei".
 
 
 ![blixt](assets/en/16.webp)
@@ -322,7 +322,7 @@ C - è il codice QR da scansionare con la fotocamera Blixt o il pulsante di copi
 Questo nodo Address URI deve essere aggiunto all'elenco dei peer. Quindi non è sufficiente il nome dell'alias del nodo o il nodeID.
 
 
-Ora si può andare su Magic Drawer (menu in alto a sinistra) - Lightning Channels, e si può vedere a quale altezza di blocco di scadenza i fondi verranno restituiti nella propria onchain Address.
+Ora si può andare su Magic Drawer (menù in alto a sinistra) - Lightning Channels, e si può vedere a quale altezza di blocco di scadenza i fondi verranno restituiti nella propria onchain Address.
 
 
 ![blixt](assets/en/18.webp)
