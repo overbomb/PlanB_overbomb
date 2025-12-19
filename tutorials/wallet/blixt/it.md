@@ -5,20 +5,20 @@ descrizione: Come iniziare a utilizzare un potente nodo LN sul cellulare?
 ![cover](assets/cover.webp)
 
 
-Questa guida è dedicata a tutti i nuovi utenti che desiderano iniziare a utilizzare Bitcoin Lightning Network (LN) in modo GRATUITO, OPEN SOURCE e COMPLETAMENTE NON COSTOSO.
+Questa guida è dedicata a tutti i nuovi utenti che desiderano iniziare a utilizzare Bitcoin Lightning Network (LN) in modo GRATUITO, OPEN SOURCE e CON PIENO CONTROLLO DEI PROPRI FONDI.
 
 
-Utilizzando [Blixt Wallet](https://blixtwallet.com/), un nodo LN completo sul vostro cellulare, ovunque voi siate.
+Utilizzando [Blixt Wallet](https://blixtwallet.com/) avrai un nodo LN completo sul tuo cellulare, ovunque tu sia.
 
 
-Se non avete mai usato il Bitcoin Lightning Network, prima di iniziare [leggete questa semplice spiegazione analogica sul Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Se non hai mai usato Bitcoin Lightning Network, prima di iniziare [leggi questa semplice spiegazione analogica sul Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
 
 
 ## ASPETTI IMPORTANTI:
 
 
 
-- Blixt è un nodo privato, NON un nodo di routing! Tienilo a mente: ciò significa che tutti i canali LN in Blixt non saranno annunciati al grafico LN (i cosiddetti canali privati). Ciò significa che questo nodo non effettuerà l'instradamento di altri pagamenti attraverso il nodo Blixt. Questo nodo Blixt NON è per il routing, ripeto. Serve principalmente per poter gestire i propri canali LN ed effettuare i pagamenti LN privatamente, ogni volta che se ne ha bisogno. Questo nodo Blixt deve essere online e sincronizzato SOLO PRIMA di effettuare le transazioni. Ecco perché vedrete un'icona in alto che indica lo stato di sincronizzazione. Ci vogliono solo pochi istanti, a seconda del tempo in cui lo si è tenuto offline.
+- Blixt è un nodo privato, NON un nodo di routing! Tienilo a mente: ciò significa che tutti i canali LN in Blixt non saranno annunciati al grafico LN (i cosiddetti canali privati). Il tuo nodo, quindi, non effettuerà l'instradamento di altri pagamenti attraverso il nodo Blixt. Questo nodo Blixt NON è per il routing, ripeto. Serve principalmente per poter gestire i propri canali LN ed effettuare i pagamenti LN privatamente, ogni volta che se ne ha bisogno. Questo nodo Blixt deve essere online e sincronizzato SOLO PRIMA di effettuare le transazioni. Ecco perché vedrai un'icona in alto che indica lo stato di sincronizzazione. Ci vogliono solo pochi istanti (dipende dal tempo che il nodo è rimasto offline)
 
 
 
