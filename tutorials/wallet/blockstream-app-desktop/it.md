@@ -208,15 +208,15 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 1. **seed generazione di frasi / Mnemonic frase** (12, 18 o 24 parole): Scrivetela con cura su un foglio di carta.
 
 
-2. **Verifica della frase seed**: Verifica dell'importazione del Wallet dalle parole annotate, ad esempio verificando la chiave pubblica estesa. Da eseguire prima dell'invio di fondi al Wallet e della messa in sicurezza permanente della frase seed.
+2. **Verifica del seed**: Verifica dell'importazione del Wallet dalle parole annotate, ad esempio verificando la chiave pubblica estesa. Da eseguire prima dell'invio di fondi al Wallet e della messa in sicurezza permanente della frase seed.
 
 
-3. **Protezione della frase seed**: Conservare la frase su un supporto fisico (carta o metallo) e in un luogo sicuro. Non conservatela mai in formato digitale (niente screenshot, cloud o e-mail).
+3. **Protezione del seed**: Conservare la frase su un supporto fisico (carta o metallo) e in un luogo sicuro. Non conservatela mai in formato digitale (niente screenshot, cloud o e-mail).
 
 
 
 
-- **Importante**: La frase seed è l'unico mezzo per recuperare i fondi in caso di smarrimento o malfunzionamento del dispositivo. Chiunque abbia accesso può rubare i vostri bitcoin.
+- **Importante**: Il seed è l'unico mezzo per recuperare i fondi in caso di smarrimento o malfunzionamento del dispositivo. Chiunque abbia accesso può rubare i vostri bitcoin.
 - **Risorse** per il backup e il controllo della frase seed :
 
 
@@ -233,8 +233,8 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Supponiamo che il Hardware Wallet sia già stato inizializzato con una frase seed e un codice PIN di chiusura.
-- Si presume che il Hardware Wallet non sia mai stato collegato a Blockstream App, il che richiede la creazione di un nuovo account. Se il Hardware Wallet è già stato utilizzato con Blockstream App, l'account apparirà automaticamente all'apertura dell'applicazione.
+- Supponiamo che l' Hardware Wallet sia già stato inizializzato con una frase seed e un codice PIN di chiusura.
+- Si presume che l' Hardware Wallet non sia mai stato collegato a Blockstream App, il che richiede la creazione di un nuovo account. Se l' Hardware Wallet è già stato utilizzato con Blockstream App, l'account apparirà automaticamente all'apertura dell'applicazione.
 
 
 
@@ -254,7 +254,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Selezionare l'opzione "**Su Hardware Wallet**":
+- Selezionare l'opzione "**On Hardware Wallet**":
 
 
 
@@ -264,7 +264,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Se si utilizza un **Blockstream Jade**, fare clic sul pulsante corrispondente. Altrimenti, selezionare "**Collega un dispositivo hardware diverso**":
+- Se si utilizza un **Blockstream Jade**, fare clic sul pulsante corrispondente. Altrimenti, selezionare "**Connect a different Hardware Device**":
 
 
 
@@ -274,7 +274,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Collegare il Hardware Wallet al computer tramite USB e selezionarlo nell'applicazione Blockstream:
+- Collegare l' Hardware Wallet al computer tramite USB e selezionarlo nell'applicazione Blockstream:
 
 
 
@@ -284,7 +284,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Attendere mentre Blockstream App importa le informazioni sul portafoglio:
+- Attendere mentre Blockstream App importa le informazioni sul wallet:
 
 
 
@@ -298,7 +298,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Se il vostro Hardware Wallet è già stato utilizzato con Blockstream App, il vostro account apparirà automaticamente nel Interface dopo l'importazione. In caso contrario, creare un account facendo clic su "**Crea account**":
+- Se il tuo Hardware Wallet è già stato utilizzato con Blockstream App, il tuo account apparirà automaticamente nell'interfaccia dopo l'importazione. In caso contrario, crea un account facendo clic su "**Create Account**":
 
 
 
@@ -308,7 +308,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Scegliere "**Standard**" per configurare un portafoglio Bitcoin classico:
+- Scegliere "**Standard**" per configurare un wallet Bitcoin classico:
 
 
 
@@ -318,7 +318,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Una volta creato l'account, è possibile accedere al portafoglio Interface principale:
+- Una volta creato l'account, è possibile accedere al l'interfaccia principale del wallet:
 
 
 
@@ -338,7 +338,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Dalla schermata principale del portafoglio, cliccare su "**Ricevi**" :
+- Dalla schermata principale del wallet, clicca su "**Ricevi**" :
 
 
 
@@ -348,7 +348,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- L'applicazione visualizza un Address di ricezione **vuoto**. L'utilizzo di un nuovo Address per ogni ricezione migliora la riservatezza. Fare clic su "**Copia Address**" per copiare il Address, oppure lasciare che il mittente scansioni il codice QR visualizzato:
+- L'applicazione visualizza un Address di ricezione **vuoto**. L'utilizzo di un nuovo Address per ogni ricezione migliora la riservatezza. Fare clic su "**Copia Address**" per copiare l' Address, oppure lasciare che il mittente scansioni il codice QR visualizzato:
 
 
 
@@ -361,8 +361,8 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- (1) Fare clic sulle frecce per creare un nuovo generate collegato al portafoglio.
-- (2) Per richiedere un importo specifico, fare clic su "**Altre opzioni**" e poi su "**Richiesta importo**". Il QR verrà aggiornato e il Address verrà sostituito da un URI di pagamento Bitcoin come: `Bitcoin:bc1q...?amount=0.00001`
+- (1) Fare clic sulle frecce per creare un nuovo generate collegato al wallet.
+- (2) Per richiedere un importo specifico, fare clic su "**More options**" e poi su "**Request Amount**". Il QR verrà aggiornato e il Address verrà sostituito da un URI di pagamento Bitcoin come: `Bitcoin:bc1q...?amount=0.00001`
 
 
 
@@ -372,7 +372,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- (3) Per riutilizzare un Address precedente, cliccare su "**Altre opzioni**" e poi su "**Elenco degli indirizzi**" :
+- (3) Per riutilizzare un Address precedente, cliccare su "**More options**" e poi su "**List of addresses**" :
 
 
 
