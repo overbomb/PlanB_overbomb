@@ -1,6 +1,6 @@
 ---
-nome: Blixt Wallet
-descrizione: Come iniziare a utilizzare un potente nodo LN sul cellulare?
+name: Blixt Wallet
+description: Come iniziare a utilizzare un potente nodo LN sul cellulare?
 ---
 ![cover](assets/cover.webp)
 
