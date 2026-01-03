@@ -39,7 +39,7 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 
 
 
-- **Hardware Wallet**, **Cold Wallet**: Un dispositivo fisico che memorizza le chiavi private offline, offrendo un elevato livello di sicurezza contro gli attacchi informatici, a differenza dei portafogli **Hot** (portafogli software su dispositivi connessi).
+- **Hardware Wallet**, **Cold Wallet**: Un dispositivo fisico che memorizza le chiavi private offline, offrendo un elevato livello di sicurezza contro gli attacchi informatici, a differenza dei wallet **Hot** (wallet software su dispositivi connessi ad internet).
 - **Uso consigliato**:
     - Ideale per garantire grandi importi o risparmi a lungo termine.
     - È adatto agli utenti attenti alla sicurezza che desiderano proteggere i propri fondi dai rischi associati ai dispositivi connessi.
@@ -53,11 +53,11 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 
 
 
-- **Blockstream App** è un'applicazione mobile (iOS, Android) e desktop per la gestione dei portafogli e degli asset Bitcoin sul Liquid Network. Acquisita da Blockstream nel 2016, si chiamava *GreenAddress*, è stata rinominata *Blockstream Green* (2019) e ora si chiama *Blockstream app* (2025).
+- **Blockstream App** è un'applicazione mobile (iOS, Android) e desktop per la gestione dei wallet e degli asset Bitcoin su Liquid Network. Acquisita da Blockstream nel 2016, si chiamava *GreenAddress*, è stata rinominata *Blockstream Green* (2019) e ora si chiama *Blockstream app* (2025).
 - **Caratteristiche principali**:
 - **Transazioni Onchain** su Blockchain Bitcoin.
     - Transazioni sulla rete **Liquid** (Sidechain per scambi veloci e riservati).
-- **Portafogli di sola osservazione** per il monitoraggio dei fondi senza accesso alle chiavi.
+- **Wallet Watch-only** per il monitoraggio dei fondi senza accesso alle chiavi.
     - Opzioni di privacy: connessione tramite **Tor**, connessione a un **nodo personale** tramite Electrum o verifica **SPV** per ridurre la dipendenza da nodi di terze parti.
     - Funzioni **Replace-by-fee (RBF)** per accelerare le transazioni non confermate.
 - **Compatibilità**: Integra portafogli hardware come **Blockstream Jade**.
@@ -73,9 +73,6 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 ### 3.1. scaricare
 
 
-
-
-
 - Accedere al [sito ufficiale](https://blockstream.com/app/) e fare clic su "_Download Now_". Scaricare la versione corrispondente al proprio sistema operativo (Windows, macOS, Linux).
 - **Nota**: Assicurarsi di scaricare dalla fonte ufficiale per evitare software fraudolento.
 
@@ -85,9 +82,7 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 
 
 
-
-
-- **Schermata iniziale**: Alla prima apertura, l'applicazione visualizza una schermata senza un Wallet configurato. I portafogli creati o importati appariranno qui in seguito.
+- **Schermata iniziale**: Alla prima apertura, l'applicazione visualizza una schermata senza un Wallet configurato. I wallet creati o importati appariranno qui in seguito.
 
 
 
@@ -97,7 +92,7 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 
 
 
-- **Personalizzazione delle impostazioni**: Fare clic sull'icona delle impostazioni in basso a sinistra, regolare le opzioni sottostanti, quindi uscire da Interface per continuare.
+- **Personalizzazione delle impostazioni**: Fare clic sull'icona delle impostazioni in basso a sinistra, regolare le opzioni sottostanti, quindi uscire da dalla schermata per continuare.
 
 
 
@@ -109,10 +104,8 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 
 
 
-
-
-- Nel menu Impostazioni, fare clic su "**Generale**".
-- **Funzione**: Modificare la lingua del software e attivare funzioni sperimentali, se necessario.
+- Nel menu Impostazioni, fare clic su "**General**".
+- **Function**: Modificare la lingua del software e attivare funzioni sperimentali, se necessario.
 
 
 
@@ -123,10 +116,7 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 #### 3.2.2. Connessione via Tor
 
 
-
-
-
-- Nel menu Impostazioni, fare clic su "**Rete**".
+- Nel menu Impostazioni, fare clic su "**Network**".
 - **Funzione**: Instradare il traffico di rete tramite **Tor**, una rete anonima che cripta le connessioni.
 - Perché? Nascondere il proprio IP Address e proteggere la propria privacy, ideale se non ci si fida della propria rete (Wi-Fi pubblico, ad esempio).
 - **Svantaggi**: Può rallentare l'applicazione a causa della crittografia.
@@ -139,9 +129,6 @@ description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream s
 
 
 #### 3.2.3. Connessione a un nodo personale
-
-
-
 
 
 - Nel menu Impostazioni, fare clic su "**Server e convalida personalizzati**".
