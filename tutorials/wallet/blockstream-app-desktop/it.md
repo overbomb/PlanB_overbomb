@@ -397,7 +397,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Dalla schermata principale del portafoglio, fare clic su "**Invio**".
+- Dalla schermata principale del wallet, fare clic su "**Invio**".
 
 
 
@@ -409,7 +409,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - Inserire i dettagli:
     - (1) Verificare che l'asset selezionato sia **Bitcoin** (onchain).
-    - (2) Inserire il **Address del destinatario** incollandolo o scansionando un codice QR con la webcam.
+    - (2) Inserire l' **Address del destinatario** incollandolo o scansionando un codice QR con la webcam.
     - (3) Indicare l'**importo** da inviare (in BTC, satoshi o altre unità).
 
 
@@ -421,7 +421,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Selezionare **tasse di transazione** (opzionale) :
+- Selezionare **commissioni di transazione** (opzionale) :
  - Scegliete tra le opzioni proposte (veloce, media, lenta) in base all'urgenza, con un tempo di conferma stimato.
  - Per tariffe personalizzate, regolare manualmente il numero di satoshis per vbyte. Questi sono visualizzati nella schermata iniziale. Vedere anche [Mempool.space](https://Mempool.space/).
 
@@ -433,7 +433,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Selezione manuale degli UTXO** (opzionale): Fare clic su "**Selezione manuale Coin**" per scegliere gli UTXO specifici da utilizzare nella transazione.
+- **Selezione manuale degli UTXO** (opzionale): Fare clic su "**Manual Coin selection**" per scegliere gli UTXO specifici da utilizzare nella transazione.
 
 
 
@@ -443,7 +443,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Verifica preliminare**: Controllare il Address, l'importo e le commissioni nella schermata di riepilogo, quindi fare clic su "**Conferma transazione**". In realtà, la transazione non sarà rilasciata alla rete fino a quando non sarà stata firmata con il proprio Hardware Wallet, che è l'unico a possedere le chiavi segrete associate agli indirizzi su cui verranno addebitati gli UTXO (satoshi).
+- **Verifica preliminare**: Controllare l' Address, l'importo e le commissioni nella schermata di riepilogo, quindi fare clic su "**Confirm transaction**". In realtà, la transazione non sarà rilasciata alla rete fino a quando non sarà stata firmata con il proprio Hardware Wallet, che è l'unico a possedere le chiavi segrete associate agli indirizzi su cui verranno addebitati gli UTXO (satoshi).
 
 
 
@@ -453,7 +453,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Controllo finale e firma**: Assicurarsi che tutti i parametri della transazione siano corretti **sulla schermata del Hardware Wallet**, quindi firmare la transazione utilizzando quest'ultimo. Un errore del Address può comportare una perdita irreversibile di fondi.
+- **Controllo finale e firma**: Assicurarsi che tutti i parametri della transazione siano corretti **sulla schermata dell' Hardware Wallet**, quindi firma la transazione utilizzando quest'ultimo. Un errore del Address può comportare una perdita irreversibile di fondi.
 
 
 
@@ -497,7 +497,7 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-- Importazione e monitoraggio di un portafoglio in "Watch-Only" :
+- Importazione e monitoraggio di un wallet in "Watch-Only" :
 
 
 
@@ -525,14 +525,14 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-### A3. Le migliori pratiche
+### A3. Buone pratiche
 
 
 
 
 
-- **Proteggete la vostra frase di recupero**:
-    - Conservare la frase Hardware Wallet e Mnemonic su un supporto fisico (carta, metallo) in un luogo sicuro.
+- **Proteggi la tua frase di recupero**:
+    - Conserva la frase Hardware Wallet e Mnemonic su un supporto fisico (carta, metallo) in un luogo sicuro.
     - Non conservatelo mai in formato digitale (cloud, e-mail, screenshot).
     - Esercitazione: salvare la frase Mnemonic :
 
@@ -550,17 +550,17 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-    - generate un nuovo Address per ogni ricezione onchain.
+    - genera un nuovo Address per ogni ricezione onchain.
     - Attivare **Tor** o **SPV** per limitare il tracciamento.
-    - Collegatevi al vostro nodo Bitcoin tramite Electrum per ottenere la massima sovranità.
-- **Controllare sempre gli indirizzi di spedizione**:
+    - Collegati al tuo nodo Bitcoin tramite Electrum per ottenere la massima sovranità.
+- **Controlla sempre gli indirizzi di spedizione**:
 
 
 
 
 
-    - Controllare il Address sullo schermo del Hardware Wallet prima di firmare.
-    - Utilizzare il copia/incolla o un codice QR per evitare errori manuali.
+    - Controlla l' Address sullo schermo dell Hardware Wallet prima di firmare.
+    - Utilizza il copia/incolla o un codice QR per evitare errori manuali.
 - **Ottimizzare i costi**:
 
 
@@ -568,11 +568,9 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
     - Adattare le tariffe in base all'urgenza e alla congestione della rete (vedere [Mempool.space](https://Mempool.space/)).
-    - Utilizzate Liquid o Lightning per transazioni veloci e a basso costo che non richiedono la sicurezza onchain.
+    - Utilizza Liquid o Lightning per transazioni veloci e a basso costo che non richiedono la sicurezza onchain.
+      
 - **Aggiornare il software**:
-
-
-
 
 
     - Mantenete l'App Blockstream e il firmware del Hardware Wallet aggiornati con le ultime funzioni e patch di sicurezza.
