@@ -198,7 +198,7 @@ Quali opzioni hai quindi se vuoi ricevere più Sats su LN?
 
 
 
-- Scambiate un po' di Sats con il vostro Wallet onchain, utilizzando un servizio di scambio sottomarino. In questo modo non si spende il proprio Sats, ma lo si restituisce al proprio Wallet onchain. Qui potete vedere in dettaglio alcuni metodi, nella [Pagina delle guide Blixt](https://blixtwallet.github.io/guides).
+- Scambiate un po' di Sats con il vostro Wallet onchain, utilizzando un servizio di submarine swap (I submarine swap consentono di scambiare Bitcoin off-chain e on-chain in modo sicuro, senza rischio di controparte). In questo modo non si spendono i propri Sats, ma li si restituisce al proprio Wallet onchain. Qui potete vedere in dettaglio alcuni metodi, nella [Pagina delle guide Blixt](https://blixtwallet.github.io/guides).
 
 
 
@@ -245,7 +245,7 @@ Ricordate che nel primo capitolo "Primo contatto" c'erano due opzioni nella sche
 - Opzione B - Ripristino del Wallet
 
 
-Ora parliamo di come ripristinare un nodo Blixt Wallet o qualsiasi altro nodo LND in crash. Si tratta di un'operazione un po' più tecnica, ma prestate attenzione. Non è che Hard.
+Ora parliamo di come ripristinare un nodo Blixt Wallet o qualsiasi altro nodo LND in crash. Si tratta di un'operazione un po' più tecnica, ma prestate attenzione. Non è complicato.
 
 
 ### OPZIONE B - Ripristino del Wallet
@@ -268,7 +268,7 @@ Ma spieghiamo in modo semplice questo processo. Come si può vedere nell'immagin
 - in basso ci sono due opzioni di pulsanti per inserire/caricare il file channel.backup, precedentemente salvato dal vecchio nodo Blixt/LND. Può trattarsi di un file locale (caricato in precedenza sul dispositivo) o di una posizione remota di Google Drive / iCloud. Blixt dispone di un'opzione per salvare il backup dei canali direttamente in un'unità Google / iCloud. Per maggiori dettagli, consultare la pagina [Blixt Features Page] (https://blixtwallet.github.io/features#blixt-options).
 
 
-Tuttavia, se in precedenza non avevate alcun canale LN aperto, non è necessario caricare alcun file channels.backup. È sufficiente inserire le 24 parole seed e premere il pulsante di ripristino.
+Tuttavia, se in precedenza non avevi alcun canale LN aperto, non è necessario caricare alcun file channels.backup. È sufficiente inserire le 24 parole seed e premere il pulsante di ripristino.
 
 
 Non dimenticare di attivare Tor, dal menù a 3 punti in alto, come abbiamo spiegato nella sezione Opzione A. Questo è il caso in cui si hanno SOLO peer Tor e non si può essere contattati tramite clearnet (dominio/IP). Altrimenti non è necessario.
@@ -277,16 +277,16 @@ Non dimenticare di attivare Tor, dal menù a 3 punti in alto, come abbiamo spieg
 Un'altra funzione utile è quella di impostare uno specifico nodo Bitcoin dal menù superiore. Per impostazione predefinita sincronizza i blocchi da node.blixtwallet.com (modalità neutrino), ma è possibile impostare qualsiasi altro nodo Bitcoin che fornisca la sincronizzazione neutrino.
 
 
-Una volta compilate queste opzioni e premuto il pulsante di ripristino, Blixt inizierà a sincronizzare i blocchi attraverso Neutrino, come abbiamo spiegato nel capitolo Primo contatto. Quindi, siate pazienti e osservate il processo di ripristino nella schermata principale, facendo clic sull'icona di sincronizzazione.
+Una volta compilate queste opzioni e premuto il pulsante di ripristino, Blixt inizierà a sincronizzare i blocchi attraverso Neutrino, come abbiamo spiegato nel capitolo Primo contatto. Quindi, sii paziente e osserva il processo di ripristino nella schermata principale, facendo clic sull'icona di sincronizzazione.
 
 
 ![blixt](assets/en/14.webp)
 
 
-Come si può vedere in questo esempio, mostra che i blocchi Bitcoin sono sincronizzati al 100% (A) e il processo di recupero è in corso (B). Ciò significa che i canali LN che avevate in precedenza verranno chiusi e i fondi ripristinati nella vostra Blixt onchain Wallet.
+Come si può vedere in questo esempio, mostra che i blocchi Bitcoin sono sincronizzati al 100% (A) e il processo di recupero è in corso (B). Ciò significa che i canali LN che avevi in precedenza verranno chiusi e i fondi ripristinati nella tuo Blixt onchain Wallet.
 
 
-Questo processo richiede tempo! Quindi, siate pazienti e cercate di mantenere il vostro Blixt attivo e online. La sincronizzazione iniziale potrebbe richiedere fino a 6-8 minuti e la chiusura dei canali potrebbe richiedere fino a 10-15 minuti. Quindi è meglio che il dispositivo sia ben carico.
+Questo processo richiede tempo! Quindi, pazienta e cerca di mantenere il tuo Blixt attivo e online. La sincronizzazione iniziale potrebbe richiedere fino a 6-8 minuti e la chiusura dei canali potrebbe richiedere fino a 10-15 minuti. Quindi è meglio che il dispositivo sia ben carico.
 
 
 Una volta avviato questo processo, si può controllare nel Magic Drawer - Lightning Channels lo stato di ciascuno dei canali precedenti, mostrando che sono in stato di "pending to close". Una volta chiuso ogni canale, si può vedere il tx di chiusura nel Wallet onchain (vedere Magic Drawer - Onchain) e aprire il registro del menù tx.
@@ -295,13 +295,13 @@ Una volta avviato questo processo, si può controllare nel Magic Drawer - Lightn
 ![blixt](assets/en/15.webp)
 
 
-Inoltre, è bene controllare e aggiungere, se non ci sono, i peer precedentemente presenti nel vecchio nodo LN. Andate quindi al menù Impostazioni, scendete a "Lightning Network" e inserite l'opzione "Mostra peer fulminei".
+Inoltre, è bene controllare e aggiungere, se non ci sono, i peer precedentemente presenti nel vecchio nodo LN. Vai al menù Impostazioni, scendi a "Lightning Network" e inserisci l'opzione "Show Lightning Peers".
 
 
 ![blixt](assets/en/16.webp)
 
 
-All'interno della sezione verranno visualizzati i peer a cui si è connessi in quel momento e se ne possono aggiungere altri, meglio aggiungere quelli che avevano canali in precedenza. Basta andare su [Amboss page] (https://amboss.space/), cercare gli alias o il nodeID dei vostri nodi peer e scansionare il loro URI.
+All'interno della sezione verranno visualizzati i peer a cui si è connessi in quel momento e se ne possono aggiungere altri, meglio aggiungere quelli che avevano canali in precedenza. Basta andare su [Amboss page] (https://amboss.space/), cercare gli alias o il nodeID dei tuoi nodi peer e scansionare il loro URI.
 
 
 ![blixt](assets/en/17.webp)
